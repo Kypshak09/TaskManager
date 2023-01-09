@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		257E534A296BC54F002AC1EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E5349296BC54F002AC1EA /* AppDelegate.swift */; };
 		257E534C296BC54F002AC1EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E534B296BC54F002AC1EA /* SceneDelegate.swift */; };
-		257E534E296BC54F002AC1EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E534D296BC54F002AC1EA /* ViewController.swift */; };
-		257E5351296BC54F002AC1EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257E534F296BC54F002AC1EA /* Main.storyboard */; };
+		257E534E296BC54F002AC1EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E534D296BC54F002AC1EA /* MainViewController.swift */; };
 		257E5353296BC555002AC1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257E5352296BC555002AC1EA /* Assets.xcassets */; };
 		257E5356296BC555002AC1EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257E5354296BC555002AC1EA /* LaunchScreen.storyboard */; };
+		257E535F296BC8C2002AC1EA /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 257E535E296BC8C2002AC1EA /* SnapKit-Dynamic */; };
+		257E5365296BE7A2002AC1EA /* MeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E5364296BE7A2002AC1EA /* MeetingViewController.swift */; };
+		257E5367296BE7B5002AC1EA /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E5366296BE7B5002AC1EA /* TasksViewController.swift */; };
+		257E5369296BE7C4002AC1EA /* CallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E5368296BE7C4002AC1EA /* CallsViewController.swift */; };
+		257E536C296BF9FC002AC1EA /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 257E536B296BF9FC002AC1EA /* FSCalendar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		257E5346296BC54F002AC1EA /* Busy Man.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Busy Man.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		257E5349296BC54F002AC1EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		257E534B296BC54F002AC1EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		257E534D296BC54F002AC1EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		257E5350296BC54F002AC1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		257E534D296BC54F002AC1EA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		257E5352296BC555002AC1EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		257E5355296BC555002AC1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		257E5357296BC555002AC1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257E5364296BE7A2002AC1EA /* MeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewController.swift; sourceTree = "<group>"; };
+		257E5366296BE7B5002AC1EA /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		257E5368296BE7C4002AC1EA /* CallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				257E535F296BC8C2002AC1EA /* SnapKit-Dynamic in Frameworks */,
+				257E536C296BF9FC002AC1EA /* FSCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +64,41 @@
 		257E5348296BC54F002AC1EA /* Busy Man */ = {
 			isa = PBXGroup;
 			children = (
+				257E5361296BE334002AC1EA /* Application */,
+				257E5362296BE341002AC1EA /* Controllers */,
+				257E5363296BE35D002AC1EA /* Others */,
+			);
+			path = "Busy Man";
+			sourceTree = "<group>";
+		};
+		257E5361296BE334002AC1EA /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				257E5349296BC54F002AC1EA /* AppDelegate.swift */,
 				257E534B296BC54F002AC1EA /* SceneDelegate.swift */,
-				257E534D296BC54F002AC1EA /* ViewController.swift */,
-				257E534F296BC54F002AC1EA /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		257E5362296BE341002AC1EA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				257E534D296BC54F002AC1EA /* MainViewController.swift */,
+				257E5364296BE7A2002AC1EA /* MeetingViewController.swift */,
+				257E5366296BE7B5002AC1EA /* TasksViewController.swift */,
+				257E5368296BE7C4002AC1EA /* CallsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		257E5363296BE35D002AC1EA /* Others */ = {
+			isa = PBXGroup;
+			children = (
 				257E5352296BC555002AC1EA /* Assets.xcassets */,
 				257E5354296BC555002AC1EA /* LaunchScreen.storyboard */,
 				257E5357296BC555002AC1EA /* Info.plist */,
 			);
-			path = "Busy Man";
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +117,10 @@
 			dependencies = (
 			);
 			name = "Busy Man";
+			packageProductDependencies = (
+				257E535E296BC8C2002AC1EA /* SnapKit-Dynamic */,
+				257E536B296BF9FC002AC1EA /* FSCalendar */,
+			);
 			productName = "Busy Man";
 			productReference = 257E5346296BC54F002AC1EA /* Busy Man.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +149,10 @@
 				Base,
 			);
 			mainGroup = 257E533D296BC54E002AC1EA;
+			packageReferences = (
+				257E535D296BC8C2002AC1EA /* XCRemoteSwiftPackageReference "SnapKit" */,
+				257E536A296BF9FC002AC1EA /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
 			productRefGroup = 257E5347296BC54F002AC1EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +169,6 @@
 			files = (
 				257E5356296BC555002AC1EA /* LaunchScreen.storyboard in Resources */,
 				257E5353296BC555002AC1EA /* Assets.xcassets in Resources */,
-				257E5351296BC54F002AC1EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				257E534E296BC54F002AC1EA /* ViewController.swift in Sources */,
+				257E534E296BC54F002AC1EA /* MainViewController.swift in Sources */,
 				257E534A296BC54F002AC1EA /* AppDelegate.swift in Sources */,
+				257E5367296BE7B5002AC1EA /* TasksViewController.swift in Sources */,
+				257E5365296BE7A2002AC1EA /* MeetingViewController.swift in Sources */,
+				257E5369296BE7C4002AC1EA /* CallsViewController.swift in Sources */,
 				257E534C296BC54F002AC1EA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +191,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		257E534F296BC54F002AC1EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				257E5350296BC54F002AC1EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		257E5354296BC555002AC1EA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +325,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XMAYR8P7MJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Busy Man/Info.plist";
+				INFOPLIST_FILE = "Busy Man/Others/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +352,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XMAYR8P7MJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Busy Man/Info.plist";
+				INFOPLIST_FILE = "Busy Man/Others/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +392,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		257E535D296BC8C2002AC1EA /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		257E536A296BF9FC002AC1EA /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		257E535E296BC8C2002AC1EA /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 257E535D296BC8C2002AC1EA /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		257E536B296BF9FC002AC1EA /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 257E536A296BF9FC002AC1EA /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 257E533E296BC54E002AC1EA /* Project object */;
 }
