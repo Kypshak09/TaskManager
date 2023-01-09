@@ -6,6 +6,34 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>41DFE918-A5BB-43B2-BB01-B4A288BA2DDA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>41DFE918-A5BB-43B2-BB01-B4A288BA2DDA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Busy_Man-caflcxohdbcsqrfifhpdehydvzbt</string>
+			<key>timeStartedRecording</key>
+			<real>694949289.70792496</real>
+			<key>timeStoppedRecording</key>
+			<real>694949290.45128405</real>
+			<key>title</key>
+			<string>Build target Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>41DFE918-A5BB-43B2-BB01-B4A288BA2DDA</string>
+		</dict>
 		<key>4F3A1360-AB98-4CEF-B948-04CE01BE3359</key>
 		<dict>
 			<key>className</key>
@@ -61,34 +89,6 @@
 			<string>Build target SnapKit</string>
 			<key>uniqueIdentifier</key>
 			<string>5E7825FC-F23A-4B95-BB0F-51656117A91E</string>
-		</dict>
-		<key>6A5F4E51-47AF-4C4C-B17B-80B5BE4F2401</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>6A5F4E51-47AF-4C4C-B17B-80B5BE4F2401.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Busy_Man-caflcxohdbcsqrfifhpdehydvzbt</string>
-			<key>timeStartedRecording</key>
-			<real>694947000.58334303</real>
-			<key>timeStoppedRecording</key>
-			<real>694947001.18299997</real>
-			<key>title</key>
-			<string>Build target Busy Man</string>
-			<key>uniqueIdentifier</key>
-			<string>6A5F4E51-47AF-4C4C-B17B-80B5BE4F2401</string>
 		</dict>
 		<key>B73FC3D8-F4C6-40A4-A8E8-E214DB3C6664</key>
 		<dict>

@@ -39,6 +39,24 @@ class MeetingViewController: UIViewController {
             calendar.setScope(.week, animated: true)
             calendarButton.setTitle("Open Calendar", for: .normal)
         }
+    }
+    
+    // MARK: - Swipe method for calendar
+    func swipeCalendar() {
+        let swipeUp = UISwipeGestureRecognizer(target: self, action: #selector(swipeActionCalendar))
+        swipeUp.direction = .up
+        calendar.addGestureRecognizer(swipeUp)
+        
+        let swipeDown = UISwipeGestureRecognizer(target: self, action: #selector(swipeActionCalendar))
+        swipeDown.direction = .down
+        calendar.addGestureRecognizer(swipeDown)
+    }
+    @objc func swipeActionCalendar(gesture: UISwipeGestureRecognizer) {
+        if gesture.direction == .up {
+            tappedCalendarButton()
+        } else if gesture.direction == .down {
+            tappedCalendarButton()
+        }
         
     }
 
@@ -47,19 +65,17 @@ class MeetingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Meetings"
-        
         calendar.delegate = self
         calendar.dataSource = self
-        
         calendar.scope = .week
         
         calendarButton.addTarget(self, action: #selector(tappedCalendarButton), for: .touchUpInside)
+        swipeCalendar()
+        
         
         view.addSubview(calendar)
-        
         calendarHeight = NSLayoutConstraint(item: calendar, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 300)
         calendar.addConstraint(calendarHeight)
-        
         calendar.snp.makeConstraints { make in
             make.top.equalTo(80)
             make.centerX.equalToSuperview()
