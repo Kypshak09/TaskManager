@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>41DFE918-A5BB-43B2-BB01-B4A288BA2DDA</key>
+		<key>07AE00DD-4208-432D-B046-9AABFF9B26D2</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>41DFE918-A5BB-43B2-BB01-B4A288BA2DDA.xcactivitylog</string>
+			<string>07AE00DD-4208-432D-B046-9AABFF9B26D2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>Busy_Man-caflcxohdbcsqrfifhpdehydvzbt</string>
 			<key>timeStartedRecording</key>
-			<real>694949289.70792496</real>
+			<real>694960901.11043</real>
 			<key>timeStoppedRecording</key>
-			<real>694949290.45128405</real>
+			<real>694960901.96073902</real>
 			<key>title</key>
 			<string>Build target Busy Man</string>
 			<key>uniqueIdentifier</key>
-			<string>41DFE918-A5BB-43B2-BB01-B4A288BA2DDA</string>
+			<string>07AE00DD-4208-432D-B046-9AABFF9B26D2</string>
 		</dict>
 		<key>4F3A1360-AB98-4CEF-B948-04CE01BE3359</key>
 		<dict>
@@ -90,7 +90,7 @@
 			<key>uniqueIdentifier</key>
 			<string>5E7825FC-F23A-4B95-BB0F-51656117A91E</string>
 		</dict>
-		<key>B73FC3D8-F4C6-40A4-A8E8-E214DB3C6664</key>
+		<key>6F8952B0-41CA-44B0-A003-6C9ED3E36515</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -99,7 +99,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
 			<key>fileName</key>
-			<string>B73FC3D8-F4C6-40A4-A8E8-E214DB3C6664.xcactivitylog</string>
+			<string>6F8952B0-41CA-44B0-A003-6C9ED3E36515.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -110,13 +110,13 @@
 			<key>signature</key>
 			<string>SnapKit-Dynamic-ckvmdihmomsekeebmxdrfztebnxz</string>
 			<key>timeStartedRecording</key>
-			<real>694942283.50146794</real>
+			<real>694959943.35189497</real>
 			<key>timeStoppedRecording</key>
-			<real>694942288.23760402</real>
+			<real>694959943.60427999</real>
 			<key>title</key>
 			<string>Build target SnapKit-Dynamic</string>
 			<key>uniqueIdentifier</key>
-			<string>B73FC3D8-F4C6-40A4-A8E8-E214DB3C6664</string>
+			<string>6F8952B0-41CA-44B0-A003-6C9ED3E36515</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

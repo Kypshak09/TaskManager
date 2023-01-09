@@ -61,6 +61,17 @@ class MeetingViewController: UIViewController {
     }
 
     
+//MARK: - Table view
+    
+    let tableView: UITableView = {
+        let table = UITableView()
+        table.separatorColor = .black
+        table.tintColor = .red
+        return table
+    }()
+    
+    let idMeetingCell = "idMeetingCell"
+    
 //MARK: - ViewDidLoad and constraints
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,6 +79,9 @@ class MeetingViewController: UIViewController {
         calendar.delegate = self
         calendar.dataSource = self
         calendar.scope = .week
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.register(MeetingCell.self, forCellReuseIdentifier: idMeetingCell)
         
         calendarButton.addTarget(self, action: #selector(tappedCalendarButton), for: .touchUpInside)
         swipeCalendar()
@@ -89,6 +103,12 @@ class MeetingViewController: UIViewController {
             make.width.equalTo(150)
             make.height.equalTo(20)
         }
+        
+        view.addSubview(tableView)
+        tableView.snp.makeConstraints { make in
+            make.centerY.centerX.equalToSuperview()
+            make.height.width.equalTo(500)
+        }
     }
     
 }
@@ -101,4 +121,21 @@ extension MeetingViewController: FSCalendarDelegate, FSCalendarDataSource {
         view.layoutIfNeeded()
     }
     
+}
+
+// MARK: - TableViewDelegate, TableView DataSource
+
+extension MeetingViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: idMeetingCell, for: indexPath) as! MeetingCell
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 }

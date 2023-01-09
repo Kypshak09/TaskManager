@@ -17,6 +17,7 @@
 		257E5367296BE7B5002AC1EA /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E5366296BE7B5002AC1EA /* TasksViewController.swift */; };
 		257E5369296BE7C4002AC1EA /* CallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E5368296BE7C4002AC1EA /* CallsViewController.swift */; };
 		257E536C296BF9FC002AC1EA /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 257E536B296BF9FC002AC1EA /* FSCalendar */; };
+		257E5371296C3BE6002AC1EA /* MeetingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E5370296C3BE6002AC1EA /* MeetingCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		257E5364296BE7A2002AC1EA /* MeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewController.swift; sourceTree = "<group>"; };
 		257E5366296BE7B5002AC1EA /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		257E5368296BE7C4002AC1EA /* CallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsViewController.swift; sourceTree = "<group>"; };
+		257E5370296C3BE6002AC1EA /* MeetingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		257E5348296BC54F002AC1EA /* Busy Man */ = {
 			isa = PBXGroup;
 			children = (
+				257E536D296C3B7D002AC1EA /* Model */,
 				257E5361296BE334002AC1EA /* Application */,
 				257E5362296BE341002AC1EA /* Controllers */,
 				257E5363296BE35D002AC1EA /* Others */,
@@ -99,6 +102,22 @@
 				257E5357296BC555002AC1EA /* Info.plist */,
 			);
 			path = Others;
+			sourceTree = "<group>";
+		};
+		257E536D296C3B7D002AC1EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				257E5372296C3E77002AC1EA /* Cell */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		257E5372296C3E77002AC1EA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				257E5370296C3BE6002AC1EA /* MeetingCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				257E5371296C3BE6002AC1EA /* MeetingCell.swift in Sources */,
 				257E534E296BC54F002AC1EA /* MainViewController.swift in Sources */,
 				257E534A296BC54F002AC1EA /* AppDelegate.swift in Sources */,
 				257E5367296BE7B5002AC1EA /* TasksViewController.swift in Sources */,
