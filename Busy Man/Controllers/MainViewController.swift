@@ -35,7 +35,6 @@ class MainViewController: UITabBarController {
         let controller = UINavigationController(rootViewController: vc)
         controller.tabBarItem = item
         return controller
-        
     }
 
 }

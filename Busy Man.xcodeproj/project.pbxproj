@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2553E17F296DA66700C570FF /* TasksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2553E17E296DA66700C570FF /* TasksCell.swift */; };
 		257E534A296BC54F002AC1EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E5349296BC54F002AC1EA /* AppDelegate.swift */; };
 		257E534C296BC54F002AC1EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E534B296BC54F002AC1EA /* SceneDelegate.swift */; };
 		257E534E296BC54F002AC1EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E534D296BC54F002AC1EA /* MainViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2553E17E296DA66700C570FF /* TasksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksCell.swift; sourceTree = "<group>"; };
 		257E5346296BC54F002AC1EA /* Busy Man.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Busy Man.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		257E5349296BC54F002AC1EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		257E534B296BC54F002AC1EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				257E5370296C3BE6002AC1EA /* MeetingCell.swift */,
+				2553E17E296DA66700C570FF /* TasksCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				257E5371296C3BE6002AC1EA /* MeetingCell.swift in Sources */,
 				2582A92E296D93DD0056DE05 /* UIStackView.swift in Sources */,
+				2553E17F296DA66700C570FF /* TasksCell.swift in Sources */,
 				257E534E296BC54F002AC1EA /* MainViewController.swift in Sources */,
 				257E534A296BC54F002AC1EA /* AppDelegate.swift in Sources */,
 				257E5367296BE7B5002AC1EA /* TasksViewController.swift in Sources */,

@@ -58,6 +58,18 @@ class TasksViewController: UIViewController {
         }
         
     }
+    
+    //MARK: - Table view
+        
+        let tableView: UITableView = {
+            let table = UITableView()
+            table.bounces = false
+            table.separatorColor = .black
+            table.tintColor = .red
+            return table
+        }()
+        
+        let idTaskCell = "idTaskCell"
 
     
 //MARK: - ViewDidLoad and constraints
@@ -67,6 +79,9 @@ class TasksViewController: UIViewController {
         calendar.delegate = self
         calendar.dataSource = self
         calendar.scope = .week
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.register(TasksCell.self, forCellReuseIdentifier: idTaskCell)
         
         calendarButton.addTarget(self, action: #selector(tappedCalendarButton), for: .touchUpInside)
         swipeCalendar()
@@ -88,8 +103,17 @@ class TasksViewController: UIViewController {
             make.width.equalTo(150)
             make.height.equalTo(20)
         }
+        
+        
+        view.addSubview(tableView)
+        tableView.snp.makeConstraints { make in
+            make.top.equalTo(calendarButton).offset(30)
+            make.centerX.equalToSuperview()
+            make.trailing.equalToSuperview()
+            make.leading.equalToSuperview()
+            make.bottom.equalTo(calendarButton).offset(590)
+        }
     }
-    
 }
 
 // MARK: - FSCalendarDelegate, FSCalendarDataSource
@@ -99,5 +123,24 @@ extension TasksViewController: FSCalendarDelegate, FSCalendarDataSource {
         calendarHeight.constant = bounds.height
         view.layoutIfNeeded()
     }
+
+}
+// MARK: - UITableViewDelegate, UITableViewDataSource
+extension TasksViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: idTaskCell, for: indexPath) as! TasksCell
+        return cell
+        
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        80
+    }
+    
     
 }
+

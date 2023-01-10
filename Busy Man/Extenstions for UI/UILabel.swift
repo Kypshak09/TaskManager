@@ -14,5 +14,6 @@ extension UILabel {
         self.font = font
         self.textAlignment = aligment
         self.textColor = .black
+        self.adjustsFontSizeToFitWidth = true
     }
 }

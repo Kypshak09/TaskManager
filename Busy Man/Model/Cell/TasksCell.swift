@@ -1,7 +1,7 @@
 import UIKit
 import SnapKit
 
-class MeetingCell: UITableViewCell {
+class TasksCell: UITableViewCell {
     
     let test = UILabel(text: "Програмирование", font: UIFont(name: "Avenir Next Demi Bold", size: 20), aligment: .left)
     

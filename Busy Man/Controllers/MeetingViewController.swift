@@ -65,6 +65,7 @@ class MeetingViewController: UIViewController {
     
     let tableView: UITableView = {
         let table = UITableView()
+        table.bounces = false
         table.separatorColor = .black
         table.tintColor = .red
         return table
@@ -106,11 +107,11 @@ class MeetingViewController: UIViewController {
         
         view.addSubview(tableView)
         tableView.snp.makeConstraints { make in
-            make.centerY.equalTo(calendarButton).offset(250)
+            make.top.equalTo(calendarButton).offset(30)
             make.centerX.equalToSuperview()
             make.trailing.equalToSuperview()
             make.leading.equalToSuperview()
-            make.height.equalTo(400)
+            make.bottom.equalTo(calendarButton).offset(590)
         }
     }
     
@@ -129,19 +130,26 @@ extension MeetingViewController: FSCalendarDelegate, FSCalendarDataSource {
 
 extension MeetingViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 6
+        return 3
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: idMeetingCell, for: indexPath) as! MeetingCell
+        
+        switch indexPath.row {
+        case 0: cell.backgroundColor = .red
+        case 1: cell.backgroundColor = .cyan
+        default: cell.backgroundColor = .green
+        }
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
-    }
+//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        tableView.deselectRow(at: indexPath, animated: true)
+//    }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 90
+        return 80
     }
 }
