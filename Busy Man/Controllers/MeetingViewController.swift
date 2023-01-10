@@ -106,8 +106,11 @@ class MeetingViewController: UIViewController {
         
         view.addSubview(tableView)
         tableView.snp.makeConstraints { make in
-            make.centerY.centerX.equalToSuperview()
-            make.height.width.equalTo(500)
+            make.centerY.equalTo(calendarButton).offset(250)
+            make.centerX.equalToSuperview()
+            make.trailing.equalToSuperview()
+            make.leading.equalToSuperview()
+            make.height.equalTo(400)
         }
     }
     
@@ -120,14 +123,13 @@ extension MeetingViewController: FSCalendarDelegate, FSCalendarDataSource {
         calendarHeight.constant = bounds.height
         view.layoutIfNeeded()
     }
-    
 }
 
 // MARK: - TableViewDelegate, TableView DataSource
 
 extension MeetingViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 6
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -137,5 +139,9 @@ extension MeetingViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 90
     }
 }

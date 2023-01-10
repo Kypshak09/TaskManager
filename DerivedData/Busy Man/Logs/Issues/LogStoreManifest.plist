@@ -6,34 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>07AE00DD-4208-432D-B046-9AABFF9B26D2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>07AE00DD-4208-432D-B046-9AABFF9B26D2.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Busy_Man-caflcxohdbcsqrfifhpdehydvzbt</string>
-			<key>timeStartedRecording</key>
-			<real>694960901.11043</real>
-			<key>timeStoppedRecording</key>
-			<real>694960901.96073902</real>
-			<key>title</key>
-			<string>Build target Busy Man</string>
-			<key>uniqueIdentifier</key>
-			<string>07AE00DD-4208-432D-B046-9AABFF9B26D2</string>
-		</dict>
 		<key>4F3A1360-AB98-4CEF-B948-04CE01BE3359</key>
 		<dict>
 			<key>className</key>
@@ -90,7 +62,35 @@
 			<key>uniqueIdentifier</key>
 			<string>5E7825FC-F23A-4B95-BB0F-51656117A91E</string>
 		</dict>
-		<key>6F8952B0-41CA-44B0-A003-6C9ED3E36515</key>
+		<key>DC6741AF-CE4C-4682-BFA9-D72920E152AF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>DC6741AF-CE4C-4682-BFA9-D72920E152AF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>Busy_Man-caflcxohdbcsqrfifhpdehydvzbt</string>
+			<key>timeStartedRecording</key>
+			<real>695048181.66594303</real>
+			<key>timeStoppedRecording</key>
+			<real>695048182.18632901</real>
+			<key>title</key>
+			<string>Build target Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>DC6741AF-CE4C-4682-BFA9-D72920E152AF</string>
+		</dict>
+		<key>DD936CFF-4BD3-481C-9E05-431554BCE113</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -99,7 +99,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
 			<key>fileName</key>
-			<string>6F8952B0-41CA-44B0-A003-6C9ED3E36515.xcactivitylog</string>
+			<string>DD936CFF-4BD3-481C-9E05-431554BCE113.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -110,13 +110,13 @@
 			<key>signature</key>
 			<string>SnapKit-Dynamic-ckvmdihmomsekeebmxdrfztebnxz</string>
 			<key>timeStartedRecording</key>
-			<real>694959943.35189497</real>
+			<real>695047586.17666101</real>
 			<key>timeStoppedRecording</key>
-			<real>694959943.60427999</real>
+			<real>695047586.40558398</real>
 			<key>title</key>
 			<string>Build target SnapKit-Dynamic</string>
 			<key>uniqueIdentifier</key>
-			<string>6F8952B0-41CA-44B0-A003-6C9ED3E36515</string>
+			<string>DD936CFF-4BD3-481C-9E05-431554BCE113</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

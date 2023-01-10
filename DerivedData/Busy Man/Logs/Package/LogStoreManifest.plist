@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>153AA3C9-7B7E-42A6-BDCA-F7DB7802E5D3</key>
+		<key>0BDD3A2B-F788-41FB-964D-B40916A59C6E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,35 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.PackageLog</string>
 			<key>fileName</key>
-			<string>153AA3C9-7B7E-42A6-BDCA-F7DB7802E5D3.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>signature</key>
-			<string>Add Package</string>
-			<key>timeStartedRecording</key>
-			<real>694929586.66669703</real>
-			<key>timeStoppedRecording</key>
-			<real>694929588.925704</real>
-			<key>title</key>
-			<string>Add Package</string>
-			<key>uniqueIdentifier</key>
-			<string>153AA3C9-7B7E-42A6-BDCA-F7DB7802E5D3</string>
-		</dict>
-		<key>204FDC5D-146B-4459-BD8D-105DC1981B3D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.PackageLog</string>
-			<key>fileName</key>
-			<string>204FDC5D-146B-4459-BD8D-105DC1981B3D.xcactivitylog</string>
+			<string>0BDD3A2B-F788-41FB-964D-B40916A59C6E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -52,15 +24,15 @@
 				<string>S</string>
 			</dict>
 			<key>signature</key>
-			<string>Add Package</string>
+			<string>Resolve Packages</string>
 			<key>timeStartedRecording</key>
-			<real>694929593.35046399</real>
+			<real>695044277.50206995</real>
 			<key>timeStoppedRecording</key>
-			<real>694929595.66120899</real>
+			<real>695044290.42172694</real>
 			<key>title</key>
-			<string>Add Package</string>
+			<string>Resolve Packages</string>
 			<key>uniqueIdentifier</key>
-			<string>204FDC5D-146B-4459-BD8D-105DC1981B3D</string>
+			<string>0BDD3A2B-F788-41FB-964D-B40916A59C6E</string>
 		</dict>
 		<key>216FEB0C-DFB2-47C4-954D-B8799E148FD4</key>
 		<dict>
@@ -89,62 +61,6 @@
 			<string>Resolve Packages</string>
 			<key>uniqueIdentifier</key>
 			<string>216FEB0C-DFB2-47C4-954D-B8799E148FD4</string>
-		</dict>
-		<key>AD6E6706-F54B-4370-AB75-A5BB3ECAEE4D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.PackageLog</string>
-			<key>fileName</key>
-			<string>AD6E6706-F54B-4370-AB75-A5BB3ECAEE4D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Add Package</string>
-			<key>timeStartedRecording</key>
-			<real>694942197.86228204</real>
-			<key>timeStoppedRecording</key>
-			<real>694942203.50274205</real>
-			<key>title</key>
-			<string>Add Package</string>
-			<key>uniqueIdentifier</key>
-			<string>AD6E6706-F54B-4370-AB75-A5BB3ECAEE4D</string>
-		</dict>
-		<key>C8E5EF7C-9096-4319-969C-3681E2818906</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.PackageLog</string>
-			<key>fileName</key>
-			<string>C8E5EF7C-9096-4319-969C-3681E2818906.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Resolve Packages</string>
-			<key>timeStartedRecording</key>
-			<real>694929602.96703196</real>
-			<key>timeStoppedRecording</key>
-			<real>694929603.75353205</real>
-			<key>title</key>
-			<string>Resolve Packages</string>
-			<key>uniqueIdentifier</key>
-			<string>C8E5EF7C-9096-4319-969C-3681E2818906</string>
 		</dict>
 	</dict>
 </dict>
