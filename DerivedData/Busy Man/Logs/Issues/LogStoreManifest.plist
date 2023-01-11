@@ -62,7 +62,7 @@
 			<key>uniqueIdentifier</key>
 			<string>5E7825FC-F23A-4B95-BB0F-51656117A91E</string>
 		</dict>
-		<key>D4CC4DCA-D85B-4CFA-B691-7B8FE57604D3</key>
+		<key>7CE44B66-8790-420E-AA7E-C9AC0832836B</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -71,7 +71,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>D4CC4DCA-D85B-4CFA-B691-7B8FE57604D3.xcactivitylog</string>
+			<string>7CE44B66-8790-420E-AA7E-C9AC0832836B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +82,13 @@
 			<key>signature</key>
 			<string>Busy_Man-caflcxohdbcsqrfifhpdehydvzbt</string>
 			<key>timeStartedRecording</key>
-			<real>695052126.20157802</real>
+			<real>695122216.91286898</real>
 			<key>timeStoppedRecording</key>
-			<real>695052126.90815198</real>
+			<real>695122218.10731804</real>
 			<key>title</key>
 			<string>Build target Busy Man</string>
 			<key>uniqueIdentifier</key>
-			<string>D4CC4DCA-D85B-4CFA-B691-7B8FE57604D3</string>
+			<string>7CE44B66-8790-420E-AA7E-C9AC0832836B</string>
 		</dict>
 		<key>DD936CFF-4BD3-481C-9E05-431554BCE113</key>
 		<dict>

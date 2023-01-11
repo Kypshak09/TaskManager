@@ -73,6 +73,10 @@ class MeetingViewController: UIViewController {
     
     let idMeetingCell = "idMeetingCell"
     
+    @objc func addButton() {
+        
+    }
+    
 //MARK: - ViewDidLoad and constraints
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -83,6 +87,8 @@ class MeetingViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(MeetingCell.self, forCellReuseIdentifier: idMeetingCell)
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButton))
         
         calendarButton.addTarget(self, action: #selector(tappedCalendarButton), for: .touchUpInside)
         swipeCalendar()
