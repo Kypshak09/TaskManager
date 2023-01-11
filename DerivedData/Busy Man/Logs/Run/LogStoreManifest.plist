@@ -6,6 +6,74 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>06BC37ED-24B4-49D8-9A69-521F24B46B1E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>06BC37ED-24B4-49D8-9A69-521F24B46B1E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156699.44642305</real>
+			<key>timeStoppedRecording</key>
+			<real>695156706.55011797</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>06BC37ED-24B4-49D8-9A69-521F24B46B1E</string>
+		</dict>
+		<key>0C19AD43-1C81-4BE5-B41F-54590780C6D6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0C19AD43-1C81-4BE5-B41F-54590780C6D6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695162369.99746001</real>
+			<key>timeStoppedRecording</key>
+			<real>695162389.83794999</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>0C19AD43-1C81-4BE5-B41F-54590780C6D6</string>
+		</dict>
 		<key>140C0235-8260-4CFB-B7E0-CA113E99E891</key>
 		<dict>
 			<key>className</key>
@@ -74,6 +142,74 @@
 			<key>uniqueIdentifier</key>
 			<string>17A91E5B-8687-404D-A8F6-0818BA26391A</string>
 		</dict>
+		<key>1AA84B6C-1321-4481-BDA1-93363202EA1C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1AA84B6C-1321-4481-BDA1-93363202EA1C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156651.71094096</real>
+			<key>timeStoppedRecording</key>
+			<real>695156661.14613104</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>1AA84B6C-1321-4481-BDA1-93363202EA1C</string>
+		</dict>
+		<key>1C0F3034-B24B-45DD-A5C5-1CC9BDE52378</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1C0F3034-B24B-45DD-A5C5-1CC9BDE52378.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163557.93485403</real>
+			<key>timeStoppedRecording</key>
+			<real>695163564.20906401</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>1C0F3034-B24B-45DD-A5C5-1CC9BDE52378</string>
+		</dict>
 		<key>1C516CB3-DBA4-4442-BD9F-6891C3BE9BCE</key>
 		<dict>
 			<key>className</key>
@@ -107,6 +243,74 @@
 			<string>Run Busy Man</string>
 			<key>uniqueIdentifier</key>
 			<string>1C516CB3-DBA4-4442-BD9F-6891C3BE9BCE</string>
+		</dict>
+		<key>1CF34CC2-A2B3-4E51-A74A-67D1264C85A0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1CF34CC2-A2B3-4E51-A74A-67D1264C85A0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695157235.98333001</real>
+			<key>timeStoppedRecording</key>
+			<real>695157267.47865105</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>1CF34CC2-A2B3-4E51-A74A-67D1264C85A0</string>
+		</dict>
+		<key>1FFACBF8-8AD7-4741-A767-792EFDB413DC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1FFACBF8-8AD7-4741-A767-792EFDB413DC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695162257.34074605</real>
+			<key>timeStoppedRecording</key>
+			<real>695162282.58732998</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>1FFACBF8-8AD7-4741-A767-792EFDB413DC</string>
 		</dict>
 		<key>2074DFE9-1D15-4776-879B-26D3FCC40501</key>
 		<dict>
@@ -142,6 +346,142 @@
 			<key>uniqueIdentifier</key>
 			<string>2074DFE9-1D15-4776-879B-26D3FCC40501</string>
 		</dict>
+		<key>23A0103B-089A-46BA-BECF-6193F22A5D32</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>23A0103B-089A-46BA-BECF-6193F22A5D32.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163579.11752796</real>
+			<key>timeStoppedRecording</key>
+			<real>695163963.55356503</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>23A0103B-089A-46BA-BECF-6193F22A5D32</string>
+		</dict>
+		<key>323846EB-4595-4CBE-8B8F-CFE812AC6B8E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>323846EB-4595-4CBE-8B8F-CFE812AC6B8E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156784.381441</real>
+			<key>timeStoppedRecording</key>
+			<real>695156905.65746498</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>323846EB-4595-4CBE-8B8F-CFE812AC6B8E</string>
+		</dict>
+		<key>33C99049-BE2E-4833-B609-385487765520</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>33C99049-BE2E-4833-B609-385487765520.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695157887.47092402</real>
+			<key>timeStoppedRecording</key>
+			<real>695158408.69875002</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>33C99049-BE2E-4833-B609-385487765520</string>
+		</dict>
+		<key>3588EECC-6E28-4EC7-A4FB-02AA38FE62A7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3588EECC-6E28-4EC7-A4FB-02AA38FE62A7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156707.20820904</real>
+			<key>timeStoppedRecording</key>
+			<real>695156783.638587</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>3588EECC-6E28-4EC7-A4FB-02AA38FE62A7</string>
+		</dict>
 		<key>42404DFC-C04F-42AD-976F-6047DC56DF52</key>
 		<dict>
 			<key>className</key>
@@ -175,6 +515,346 @@
 			<string>Run Busy Man</string>
 			<key>uniqueIdentifier</key>
 			<string>42404DFC-C04F-42AD-976F-6047DC56DF52</string>
+		</dict>
+		<key>48FD5CF3-42F5-4E0C-AFA5-FFBACB2DAFEF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>48FD5CF3-42F5-4E0C-AFA5-FFBACB2DAFEF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156399.64663994</real>
+			<key>timeStoppedRecording</key>
+			<real>695156572.77487004</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>48FD5CF3-42F5-4E0C-AFA5-FFBACB2DAFEF</string>
+		</dict>
+		<key>4B91DDBA-441B-4338-AB74-4306BCEF6F69</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4B91DDBA-441B-4338-AB74-4306BCEF6F69.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163550.88094294</real>
+			<key>timeStoppedRecording</key>
+			<real>695163557.33889103</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>4B91DDBA-441B-4338-AB74-4306BCEF6F69</string>
+		</dict>
+		<key>4DF3EB09-A333-4160-9DBC-280D26CB20A2</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4DF3EB09-A333-4160-9DBC-280D26CB20A2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163450.26174402</real>
+			<key>timeStoppedRecording</key>
+			<real>695163459.63566601</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>4DF3EB09-A333-4160-9DBC-280D26CB20A2</string>
+		</dict>
+		<key>52724971-F200-468E-B388-EF5C8EA62EC2</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>52724971-F200-468E-B388-EF5C8EA62EC2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163564.82298505</real>
+			<key>timeStoppedRecording</key>
+			<real>695163570.48013103</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>52724971-F200-468E-B388-EF5C8EA62EC2</string>
+		</dict>
+		<key>52FB4C53-8105-4E49-93B2-0F52EF9C83C6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>52FB4C53-8105-4E49-93B2-0F52EF9C83C6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156219.47713196</real>
+			<key>timeStoppedRecording</key>
+			<real>695156334.78894603</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>52FB4C53-8105-4E49-93B2-0F52EF9C83C6</string>
+		</dict>
+		<key>5E1CF920-EBFE-4F4C-9735-FE27499F578D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5E1CF920-EBFE-4F4C-9735-FE27499F578D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163535.52815402</real>
+			<key>timeStoppedRecording</key>
+			<real>695163550.27215397</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>5E1CF920-EBFE-4F4C-9735-FE27499F578D</string>
+		</dict>
+		<key>5EDA9BE9-5979-4009-83B7-9EEAE8F81651</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5EDA9BE9-5979-4009-83B7-9EEAE8F81651.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156345.43527901</real>
+			<key>timeStoppedRecording</key>
+			<real>695156352.21698999</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>5EDA9BE9-5979-4009-83B7-9EEAE8F81651</string>
+		</dict>
+		<key>62785BAF-C7F7-40F6-930F-D3D76AE9245D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>62785BAF-C7F7-40F6-930F-D3D76AE9245D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156594.41282797</real>
+			<key>timeStoppedRecording</key>
+			<real>695156602.31991005</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>62785BAF-C7F7-40F6-930F-D3D76AE9245D</string>
+		</dict>
+		<key>69D4C575-7863-4CEE-A314-D018D64AEAF9</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>69D4C575-7863-4CEE-A314-D018D64AEAF9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163330.63977695</real>
+			<key>timeStoppedRecording</key>
+			<real>695163404.086748</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>69D4C575-7863-4CEE-A314-D018D64AEAF9</string>
+		</dict>
+		<key>70BA3ACB-D769-438D-B2DE-7421A7739422</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>70BA3ACB-D769-438D-B2DE-7421A7739422.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163517.40900195</real>
+			<key>timeStoppedRecording</key>
+			<real>695163527.60334802</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>70BA3ACB-D769-438D-B2DE-7421A7739422</string>
 		</dict>
 		<key>74B6D0A9-6443-4CBB-9B73-8FC01994C26D</key>
 		<dict>
@@ -210,6 +890,176 @@
 			<key>uniqueIdentifier</key>
 			<string>74B6D0A9-6443-4CBB-9B73-8FC01994C26D</string>
 		</dict>
+		<key>78900985-3CD7-4FA1-B05A-DED519221287</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>78900985-3CD7-4FA1-B05A-DED519221287.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163506.38427401</real>
+			<key>timeStoppedRecording</key>
+			<real>695163516.81289196</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>78900985-3CD7-4FA1-B05A-DED519221287</string>
+		</dict>
+		<key>7B715520-582A-48A3-8754-854BEF3A550C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7B715520-582A-48A3-8754-854BEF3A550C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695157284.13026798</real>
+			<key>timeStoppedRecording</key>
+			<real>695157306.05862296</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>7B715520-582A-48A3-8754-854BEF3A550C</string>
+		</dict>
+		<key>7C9BA6CC-A26F-4A51-B84E-88B1E251EF81</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7C9BA6CC-A26F-4A51-B84E-88B1E251EF81.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695162390.82091701</real>
+			<key>timeStoppedRecording</key>
+			<real>695163305.74570596</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>7C9BA6CC-A26F-4A51-B84E-88B1E251EF81</string>
+		</dict>
+		<key>84128413-3E6E-42D0-B417-801EDFC0625E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>84128413-3E6E-42D0-B417-801EDFC0625E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156352.80773401</real>
+			<key>timeStoppedRecording</key>
+			<real>695156398.75849795</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>84128413-3E6E-42D0-B417-801EDFC0625E</string>
+		</dict>
+		<key>880F3D96-AA1E-4D68-A985-229D105F5C6B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>880F3D96-AA1E-4D68-A985-229D105F5C6B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156687.09602404</real>
+			<key>timeStoppedRecording</key>
+			<real>695156698.80829704</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>880F3D96-AA1E-4D68-A985-229D105F5C6B</string>
+		</dict>
 		<key>8ABB7A29-175D-4725-B465-E3632A86B7F3</key>
 		<dict>
 			<key>className</key>
@@ -244,6 +1094,40 @@
 			<key>uniqueIdentifier</key>
 			<string>8ABB7A29-175D-4725-B465-E3632A86B7F3</string>
 		</dict>
+		<key>953AEA92-4D22-4924-90EE-0446AA31913A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>953AEA92-4D22-4924-90EE-0446AA31913A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163571.07228804</real>
+			<key>timeStoppedRecording</key>
+			<real>695163578.50545204</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>953AEA92-4D22-4924-90EE-0446AA31913A</string>
+		</dict>
 		<key>9BE7E028-1161-49B2-8820-5B0C71BE874A</key>
 		<dict>
 			<key>className</key>
@@ -277,6 +1161,74 @@
 			<string>Run Busy Man</string>
 			<key>uniqueIdentifier</key>
 			<string>9BE7E028-1161-49B2-8820-5B0C71BE874A</string>
+		</dict>
+		<key>9D9D3A4D-0270-438E-94C9-F9FC5882F77F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9D9D3A4D-0270-438E-94C9-F9FC5882F77F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695157315.82550097</real>
+			<key>timeStoppedRecording</key>
+			<real>695157777.91850805</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>9D9D3A4D-0270-438E-94C9-F9FC5882F77F</string>
+		</dict>
+		<key>9E50B21D-0366-49B4-A626-B437C39DDA4B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9E50B21D-0366-49B4-A626-B437C39DDA4B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163306.87751305</real>
+			<key>timeStoppedRecording</key>
+			<real>695163329.87960398</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>9E50B21D-0366-49B4-A626-B437C39DDA4B</string>
 		</dict>
 		<key>9F2D4512-6726-46F1-BB34-5103AAB5444A</key>
 		<dict>
@@ -414,6 +1366,176 @@
 			<key>uniqueIdentifier</key>
 			<string>A56E3105-DF8F-4C62-84F1-05B1F45968A7</string>
 		</dict>
+		<key>A6CE015C-D8C6-43EE-8AA2-23754C88E3F8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A6CE015C-D8C6-43EE-8AA2-23754C88E3F8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156574.01842594</real>
+			<key>timeStoppedRecording</key>
+			<real>695156593.78104496</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>A6CE015C-D8C6-43EE-8AA2-23754C88E3F8</string>
+		</dict>
+		<key>A83D9EBC-2193-4904-BE9C-D838D21F97A8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A83D9EBC-2193-4904-BE9C-D838D21F97A8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695158429.98839903</real>
+			<key>timeStoppedRecording</key>
+			<real>695158548.28636003</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>A83D9EBC-2193-4904-BE9C-D838D21F97A8</string>
+		</dict>
+		<key>A8F45259-D345-45BB-BC40-CA293FBC6CB7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A8F45259-D345-45BB-BC40-CA293FBC6CB7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163404.87692499</real>
+			<key>timeStoppedRecording</key>
+			<real>695163424.56661499</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>A8F45259-D345-45BB-BC40-CA293FBC6CB7</string>
+		</dict>
+		<key>A91B08A7-2BDD-46BB-8A59-A175CC730FA7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A91B08A7-2BDD-46BB-8A59-A175CC730FA7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163425.30432606</real>
+			<key>timeStoppedRecording</key>
+			<real>695163449.64161205</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>A91B08A7-2BDD-46BB-8A59-A175CC730FA7</string>
+		</dict>
+		<key>AA3C94B9-22AD-4140-B582-E208331FA83E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AA3C94B9-22AD-4140-B582-E208331FA83E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695158409.50571203</real>
+			<key>timeStoppedRecording</key>
+			<real>695158429.36616004</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>AA3C94B9-22AD-4140-B582-E208331FA83E</string>
+		</dict>
 		<key>ADB7411B-BE6D-46F0-8102-0345EFAA2293</key>
 		<dict>
 			<key>className</key>
@@ -447,6 +1569,142 @@
 			<string>Run Busy Man</string>
 			<key>uniqueIdentifier</key>
 			<string>ADB7411B-BE6D-46F0-8102-0345EFAA2293</string>
+		</dict>
+		<key>AFAA4A4E-8BF4-42D6-A9F6-EE5EEC4C5FF8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AFAA4A4E-8BF4-42D6-A9F6-EE5EEC4C5FF8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163487.51499701</real>
+			<key>timeStoppedRecording</key>
+			<real>695163505.78834796</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>AFAA4A4E-8BF4-42D6-A9F6-EE5EEC4C5FF8</string>
+		</dict>
+		<key>B556FA43-D0AA-41D1-BDB3-AC241D671433</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B556FA43-D0AA-41D1-BDB3-AC241D671433.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695158549.07363904</real>
+			<key>timeStoppedRecording</key>
+			<real>695162255.73279405</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>B556FA43-D0AA-41D1-BDB3-AC241D671433</string>
+		</dict>
+		<key>BA72D31E-FECC-4935-96AF-2603EDDE0A62</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BA72D31E-FECC-4935-96AF-2603EDDE0A62.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695157268.07646704</real>
+			<key>timeStoppedRecording</key>
+			<real>695157283.38824606</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>BA72D31E-FECC-4935-96AF-2603EDDE0A62</string>
+		</dict>
+		<key>BBDD0FAA-A510-4B01-993C-1AB504245C1D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BBDD0FAA-A510-4B01-993C-1AB504245C1D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695157028.05077899</real>
+			<key>timeStoppedRecording</key>
+			<real>695157235.01449597</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>BBDD0FAA-A510-4B01-993C-1AB504245C1D</string>
 		</dict>
 		<key>BEE58DFD-632A-486D-BEF3-90E1809330E4</key>
 		<dict>
@@ -482,6 +1740,142 @@
 			<key>uniqueIdentifier</key>
 			<string>BEE58DFD-632A-486D-BEF3-90E1809330E4</string>
 		</dict>
+		<key>BFB75253-9B23-465D-B36A-120D1EDB9AF5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BFB75253-9B23-465D-B36A-120D1EDB9AF5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156906.431283</real>
+			<key>timeStoppedRecording</key>
+			<real>695157027.09229696</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>BFB75253-9B23-465D-B36A-120D1EDB9AF5</string>
+		</dict>
+		<key>C2A8386C-2468-486F-A05D-64DCBE922849</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C2A8386C-2468-486F-A05D-64DCBE922849.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695157306.72051597</real>
+			<key>timeStoppedRecording</key>
+			<real>695157315.21466804</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>C2A8386C-2468-486F-A05D-64DCBE922849</string>
+		</dict>
+		<key>C5C0ABDE-0F5A-4227-9957-D69AD09BCCCA</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C5C0ABDE-0F5A-4227-9957-D69AD09BCCCA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156623.45405805</real>
+			<key>timeStoppedRecording</key>
+			<real>695156650.68778801</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>C5C0ABDE-0F5A-4227-9957-D69AD09BCCCA</string>
+		</dict>
+		<key>C66770E3-6829-4FE7-A3F0-DBD506AA55C1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C66770E3-6829-4FE7-A3F0-DBD506AA55C1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695157859.53733897</real>
+			<key>timeStoppedRecording</key>
+			<real>695157886.65068996</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>C66770E3-6829-4FE7-A3F0-DBD506AA55C1</string>
+		</dict>
 		<key>CC0A964E-E0C3-4654-A22A-E4064E07B497</key>
 		<dict>
 			<key>className</key>
@@ -516,6 +1910,142 @@
 			<key>uniqueIdentifier</key>
 			<string>CC0A964E-E0C3-4654-A22A-E4064E07B497</string>
 		</dict>
+		<key>DB3DB528-13FB-4756-921D-C248EB8B060A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DB3DB528-13FB-4756-921D-C248EB8B060A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695162283.39917195</real>
+			<key>timeStoppedRecording</key>
+			<real>695162309.74721301</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>DB3DB528-13FB-4756-921D-C248EB8B060A</string>
+		</dict>
+		<key>DCD139D6-C31C-4EBE-B225-2C2792EEB37B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DCD139D6-C31C-4EBE-B225-2C2792EEB37B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156661.83261299</real>
+			<key>timeStoppedRecording</key>
+			<real>695156686.38790405</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>DCD139D6-C31C-4EBE-B225-2C2792EEB37B</string>
+		</dict>
+		<key>DD7BED7F-C134-4B43-B945-3CC5703AFD89</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DD7BED7F-C134-4B43-B945-3CC5703AFD89.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163964.36888301</real>
+			<key>timeStoppedRecording</key>
+			<real>695164024.83972001</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>DD7BED7F-C134-4B43-B945-3CC5703AFD89</string>
+		</dict>
+		<key>DE5FC809-7270-4D86-A96F-99840146E092</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DE5FC809-7270-4D86-A96F-99840146E092.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156602.95432997</real>
+			<key>timeStoppedRecording</key>
+			<real>695156612.02355504</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>DE5FC809-7270-4D86-A96F-99840146E092</string>
+		</dict>
 		<key>E0E53304-2C72-407E-9FF2-35729AFDEDCE</key>
 		<dict>
 			<key>className</key>
@@ -549,6 +2079,40 @@
 			<string>Run Busy Man</string>
 			<key>uniqueIdentifier</key>
 			<string>E0E53304-2C72-407E-9FF2-35729AFDEDCE</string>
+		</dict>
+		<key>E164B306-B506-4411-AAAF-EC800524E0D0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E164B306-B506-4411-AAAF-EC800524E0D0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163528.22288895</real>
+			<key>timeStoppedRecording</key>
+			<real>695163534.92293203</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>E164B306-B506-4411-AAAF-EC800524E0D0</string>
 		</dict>
 		<key>E8B43D1E-DCB0-4166-A439-487FACA056CA</key>
 		<dict>
@@ -617,6 +2181,142 @@
 			<string>Run Busy Man</string>
 			<key>uniqueIdentifier</key>
 			<string>EA1BC219-9792-4AE1-99AC-CD2E2F62AE1C</string>
+		</dict>
+		<key>EEE25185-2FF7-4A93-8BD1-5920A15DF9DD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EEE25185-2FF7-4A93-8BD1-5920A15DF9DD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695155995.73705995</real>
+			<key>timeStoppedRecording</key>
+			<real>695156218.36625504</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>EEE25185-2FF7-4A93-8BD1-5920A15DF9DD</string>
+		</dict>
+		<key>F697EA06-87A8-42D3-B8C8-7599E5E821AC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F697EA06-87A8-42D3-B8C8-7599E5E821AC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695163460.25326204</real>
+			<key>timeStoppedRecording</key>
+			<real>695163486.87492704</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>F697EA06-87A8-42D3-B8C8-7599E5E821AC</string>
+		</dict>
+		<key>F8958520-9750-452C-B62F-C6BEDCF8BC42</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F8958520-9750-452C-B62F-C6BEDCF8BC42.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156612.638695</real>
+			<key>timeStoppedRecording</key>
+			<real>695156622.77506495</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>F8958520-9750-452C-B62F-C6BEDCF8BC42</string>
+		</dict>
+		<key>FD8948F3-615C-43FE-8C3D-A594AE2C28E1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FD8948F3-615C-43FE-8C3D-A594AE2C28E1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695156335.48834896</real>
+			<key>timeStoppedRecording</key>
+			<real>695156344.79243302</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>FD8948F3-615C-43FE-8C3D-A594AE2C28E1</string>
 		</dict>
 		<key>FE332698-D307-4E99-8817-F998023985E2</key>
 		<dict>

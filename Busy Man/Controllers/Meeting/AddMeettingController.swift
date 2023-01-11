@@ -24,16 +24,17 @@ class AddMeetingController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
-        case 0: return 2
-        case 1: return 4
-        case 2: return 1
+        case 0: return 3
+        case 1: return 1
+        case 2: return 2
         case 3: return 1
-        default: return 0
+        default: return 1
         }
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as! AddMeetingCell
+        cell.getCellNames(indexPath: indexPath)
         cell.backgroundColor = .systemGray2
         return cell
     }
@@ -44,10 +45,11 @@ class AddMeetingController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: header) as! HeaderMeeting
+        header.label.text = header.headerArray[section]
         return header
     }
     
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        50
+        40
     }
 }
