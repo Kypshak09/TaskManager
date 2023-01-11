@@ -74,7 +74,7 @@ class MeetingViewController: UIViewController {
     let idMeetingCell = "idMeetingCell"
     
     @objc func addButton() {
-        
+        navigationController?.pushViewController(AddMeetingController(), animated: true)
     }
     
 //MARK: - ViewDidLoad and constraints
@@ -95,10 +95,10 @@ class MeetingViewController: UIViewController {
         
         
         view.addSubview(calendar)
-        calendarHeight = NSLayoutConstraint(item: calendar, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 300)
+        calendarHeight = NSLayoutConstraint(item: calendar, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 250)
         calendar.addConstraint(calendarHeight)
         calendar.snp.makeConstraints { make in
-            make.top.equalTo(80)
+            make.top.equalTo(90)
             make.centerX.equalToSuperview()
             make.width.equalTo(400)
         }
@@ -114,10 +114,9 @@ class MeetingViewController: UIViewController {
         view.addSubview(tableView)
         tableView.snp.makeConstraints { make in
             make.top.equalTo(calendarButton).offset(30)
-            make.centerX.equalToSuperview()
             make.trailing.equalToSuperview()
             make.leading.equalToSuperview()
-            make.bottom.equalTo(calendarButton).offset(590)
+            make.bottom.equalTo(calendarButton).offset(550)
         }
     }
     

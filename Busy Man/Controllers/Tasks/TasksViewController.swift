@@ -91,7 +91,7 @@ class TasksViewController: UIViewController {
         calendarHeight = NSLayoutConstraint(item: calendar, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 300)
         calendar.addConstraint(calendarHeight)
         calendar.snp.makeConstraints { make in
-            make.top.equalTo(80)
+            make.top.equalTo(90)
             make.centerX.equalToSuperview()
             make.width.equalTo(400)
         }

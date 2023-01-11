@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0BDD3A2B-F788-41FB-964D-B40916A59C6E</key>
+		<key>5EBBA0FF-D40A-4B79-80EE-B3CFAE62C235</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.PackageLog</string>
 			<key>fileName</key>
-			<string>0BDD3A2B-F788-41FB-964D-B40916A59C6E.xcactivitylog</string>
+			<string>5EBBA0FF-D40A-4B79-80EE-B3CFAE62C235.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,15 +26,15 @@
 			<key>signature</key>
 			<string>Resolve Packages</string>
 			<key>timeStartedRecording</key>
-			<real>695044277.50206995</real>
+			<real>695150758.28006101</real>
 			<key>timeStoppedRecording</key>
-			<real>695044290.42172694</real>
+			<real>695150760.26680899</real>
 			<key>title</key>
 			<string>Resolve Packages</string>
 			<key>uniqueIdentifier</key>
-			<string>0BDD3A2B-F788-41FB-964D-B40916A59C6E</string>
+			<string>5EBBA0FF-D40A-4B79-80EE-B3CFAE62C235</string>
 		</dict>
-		<key>975AD247-0AC4-4F61-9534-0A155E92E672</key>
+		<key>9D90CBA6-5249-4130-8388-9B804E94D6AF</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -43,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.PackageLog</string>
 			<key>fileName</key>
-			<string>975AD247-0AC4-4F61-9534-0A155E92E672.xcactivitylog</string>
+			<string>9D90CBA6-5249-4130-8388-9B804E94D6AF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +54,13 @@
 			<key>signature</key>
 			<string>Resolve Packages</string>
 			<key>timeStartedRecording</key>
-			<real>695048422.57943296</real>
+			<real>695137966.38022804</real>
 			<key>timeStoppedRecording</key>
-			<real>695048424.66096699</real>
+			<real>695137966.95358801</real>
 			<key>title</key>
 			<string>Resolve Packages</string>
 			<key>uniqueIdentifier</key>
-			<string>975AD247-0AC4-4F61-9534-0A155E92E672</string>
+			<string>9D90CBA6-5249-4130-8388-9B804E94D6AF</string>
 		</dict>
 	</dict>
 </dict>
