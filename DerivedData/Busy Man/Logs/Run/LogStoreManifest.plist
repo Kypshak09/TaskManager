@@ -74,6 +74,40 @@
 			<key>uniqueIdentifier</key>
 			<string>17A91E5B-8687-404D-A8F6-0818BA26391A</string>
 		</dict>
+		<key>1C516CB3-DBA4-4442-BD9F-6891C3BE9BCE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1C516CB3-DBA4-4442-BD9F-6891C3BE9BCE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695155569.99462295</real>
+			<key>timeStoppedRecording</key>
+			<real>695155668.56733096</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>1C516CB3-DBA4-4442-BD9F-6891C3BE9BCE</string>
+		</dict>
 		<key>2074DFE9-1D15-4776-879B-26D3FCC40501</key>
 		<dict>
 			<key>className</key>
@@ -243,6 +277,40 @@
 			<string>Run Busy Man</string>
 			<key>uniqueIdentifier</key>
 			<string>9BE7E028-1161-49B2-8820-5B0C71BE874A</string>
+		</dict>
+		<key>9F2D4512-6726-46F1-BB34-5103AAB5444A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9F2D4512-6726-46F1-BB34-5103AAB5444A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Busy Man project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Busy Man</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Busy Man</string>
+			<key>timeStartedRecording</key>
+			<real>695155669.25734401</real>
+			<key>timeStoppedRecording</key>
+			<real>695155993.73203802</real>
+			<key>title</key>
+			<string>Run Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>9F2D4512-6726-46F1-BB34-5103AAB5444A</string>
 		</dict>
 		<key>9F9AADCD-AE83-4AB5-B12A-EFF866670D08</key>
 		<dict>

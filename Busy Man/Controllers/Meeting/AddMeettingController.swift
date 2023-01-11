@@ -4,6 +4,7 @@ import SnapKit
 class AddMeetingController: UITableViewController {
     
     let identifier = "identifierAddMeController"
+    let header = "header"
  
     
     override func viewDidLoad() {
@@ -13,6 +14,7 @@ class AddMeetingController: UITableViewController {
         tableView.delegate = self
         tableView.dataSource = self
         self.tableView.register(AddMeetingCell.self, forCellReuseIdentifier: identifier)
+        self.tableView.register(HeaderMeeting.self, forHeaderFooterViewReuseIdentifier: header)
         
     }
     
@@ -38,5 +40,14 @@ class AddMeetingController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         44
+    }
+    
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: header) as! HeaderMeeting
+        return header
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        50
     }
 }

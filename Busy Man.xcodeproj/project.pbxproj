@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251A76B3296F3C8800F46EF8 /* HeaderMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A76B2296F3C8800F46EF8 /* HeaderMeeting.swift */; };
 		2553E17F296DA66700C570FF /* TasksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2553E17E296DA66700C570FF /* TasksCell.swift */; };
 		2553E181296EF5BD00C570FF /* AddMeettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2553E180296EF5BD00C570FF /* AddMeettingController.swift */; };
 		2553E184296EF5E900C570FF /* AddTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2553E183296EF5E900C570FF /* AddTaskController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		251A76B2296F3C8800F46EF8 /* HeaderMeeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderMeeting.swift; sourceTree = "<group>"; };
 		2553E17E296DA66700C570FF /* TasksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksCell.swift; sourceTree = "<group>"; };
 		2553E180296EF5BD00C570FF /* AddMeettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeettingController.swift; sourceTree = "<group>"; };
 		2553E183296EF5E900C570FF /* AddTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			children = (
 				257E5370296C3BE6002AC1EA /* MeetingCell.swift */,
 				2553E189296F1BE700C570FF /* AddMeetingCell.swift */,
+				251A76B2296F3C8800F46EF8 /* HeaderMeeting.swift */,
 			);
 			path = "Meeting Cells";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				257E5371296C3BE6002AC1EA /* MeetingCell.swift in Sources */,
 				2553E18A296F1BE700C570FF /* AddMeetingCell.swift in Sources */,
+				251A76B3296F3C8800F46EF8 /* HeaderMeeting.swift in Sources */,
 				2553E181296EF5BD00C570FF /* AddMeettingController.swift in Sources */,
 				2553E184296EF5E900C570FF /* AddTaskController.swift in Sources */,
 				2582A92E296D93DD0056DE05 /* UIStackView.swift in Sources */,
