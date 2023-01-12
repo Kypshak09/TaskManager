@@ -11,7 +11,8 @@ import SnapKit
 class CallsViewController: UITableViewController {
     
     let identifier = "identifierContactCell"
- 
+    
+    let searchController = UISearchController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,9 +21,10 @@ class CallsViewController: UITableViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.separatorStyle = .singleLine
-        tableView.bounces = false
         self.tableView.register(CallsCell.self, forCellReuseIdentifier: identifier)
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(goToAddContact))
+        searchController.searchBar.placeholder = "Search"
+        navigationItem.searchController = searchController
         
     }
     
@@ -36,9 +38,9 @@ class CallsViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
-        case 0: return 3
+        case 0: return 1
         case 1: return 1
-        case 2: return 2
+        case 2: return 1
         case 3: return 1
         default: return 1
         }

@@ -74,8 +74,31 @@ class AddCallsController: UITableViewController {
         case[3,0]: alertType(label: cell.label) { type in
             print(type)
         }
+        case[4,0]: alertPhoto { source in
+            self.chooseImage(source: source)
+        }
         default: print("Error")
         }
         
+    }
+}
+
+extension AddCallsController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    func chooseImage(source: UIImagePickerController.SourceType) {
+        
+        if UIImagePickerController.isSourceTypeAvailable(source) {
+            let imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
+            imagePicker.allowsEditing = true
+            imagePicker.sourceType = source
+            present(imagePicker, animated: true)
+        }
+    }
+
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        let cell = tableView.cellForRow(at: [4,0]) as! AddCallsCell
+        cell.addImageContact.image = info[.editedImage] as? UIImage
+        dismiss(animated: true)
     }
 }

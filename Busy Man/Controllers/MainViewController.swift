@@ -33,7 +33,8 @@ class MainViewController: UITabBarController {
         let controller = UINavigationController(rootViewController: vc)
         controller.tabBarItem.title = itemName
         controller.tabBarItem.image = UIImage(systemName: itemImage)
-        controller.navigationItem.title = itemName        
+        controller.navigationItem.title = itemName
+        controller.navigationBar.scrollEdgeAppearance = controller.navigationBar.standardAppearance
         return controller
     }
 

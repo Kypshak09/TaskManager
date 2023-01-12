@@ -6,6 +6,34 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>92DC4CBF-2301-4F4E-A301-1C9DBBCAAC87</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
+			<key>fileName</key>
+			<string>92DC4CBF-2301-4F4E-A301-1C9DBBCAAC87.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>SnapKit-Dynamic-ckvmdihmomsekeebmxdrfztebnxz</string>
+			<key>timeStartedRecording</key>
+			<real>695257859.83074403</real>
+			<key>timeStoppedRecording</key>
+			<real>695257860.08224106</real>
+			<key>title</key>
+			<string>Build target SnapKit-Dynamic</string>
+			<key>uniqueIdentifier</key>
+			<string>92DC4CBF-2301-4F4E-A301-1C9DBBCAAC87</string>
+		</dict>
 		<key>A17E1656-FDF6-4F85-9ACC-42328E1D691E</key>
 		<dict>
 			<key>className</key>
@@ -34,62 +62,6 @@
 			<key>uniqueIdentifier</key>
 			<string>A17E1656-FDF6-4F85-9ACC-42328E1D691E</string>
 		</dict>
-		<key>ADDB43C4-6822-44C9-8242-2051A769A2A2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
-			<key>fileName</key>
-			<string>ADDB43C4-6822-44C9-8242-2051A769A2A2.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>SnapKit-Dynamic-ckvmdihmomsekeebmxdrfztebnxz</string>
-			<key>timeStartedRecording</key>
-			<real>695244696.59942496</real>
-			<key>timeStoppedRecording</key>
-			<real>695244697.17519796</real>
-			<key>title</key>
-			<string>Build target SnapKit-Dynamic</string>
-			<key>uniqueIdentifier</key>
-			<string>ADDB43C4-6822-44C9-8242-2051A769A2A2</string>
-		</dict>
-		<key>C5AE73C2-167C-4A98-B3FC-3C48FE6B1A8E</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>C5AE73C2-167C-4A98-B3FC-3C48FE6B1A8E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Busy_Man-caflcxohdbcsqrfifhpdehydvzbt</string>
-			<key>timeStartedRecording</key>
-			<real>695254322.71213603</real>
-			<key>timeStoppedRecording</key>
-			<real>695254324.67990696</real>
-			<key>title</key>
-			<string>Build target Busy Man</string>
-			<key>uniqueIdentifier</key>
-			<string>C5AE73C2-167C-4A98-B3FC-3C48FE6B1A8E</string>
-		</dict>
 		<key>CD0B0CD3-BB8C-44FF-AF58-F0E4092C639C</key>
 		<dict>
 			<key>className</key>
@@ -117,6 +89,34 @@
 			<string>Build target FSCalendar</string>
 			<key>uniqueIdentifier</key>
 			<string>CD0B0CD3-BB8C-44FF-AF58-F0E4092C639C</string>
+		</dict>
+		<key>DB0F4711-A201-4AD7-8A72-337CDB4FAE49</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>DB0F4711-A201-4AD7-8A72-337CDB4FAE49.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Busy_Man-caflcxohdbcsqrfifhpdehydvzbt</string>
+			<key>timeStartedRecording</key>
+			<real>695258042.501863</real>
+			<key>timeStoppedRecording</key>
+			<real>695258043.54797697</real>
+			<key>title</key>
+			<string>Build target Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>DB0F4711-A201-4AD7-8A72-337CDB4FAE49</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
