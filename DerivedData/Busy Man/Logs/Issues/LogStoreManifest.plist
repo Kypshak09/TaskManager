@@ -6,16 +6,16 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>12050D3A-6BBB-48F9-B6F7-07CF1AA6B1B2</key>
+		<key>3D6AA70F-B4E4-428C-B002-0AA3848A08E4</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
 			<key>documentTypeString</key>
 			<string>&lt;nil&gt;</string>
 			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>12050D3A-6BBB-48F9-B6F7-07CF1AA6B1B2.xcactivitylog</string>
+			<string>3D6AA70F-B4E4-428C-B002-0AA3848A08E4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -24,15 +24,15 @@
 				<string>S</string>
 			</dict>
 			<key>signature</key>
-			<string>SnapKit-Dynamic-ckvmdihmomsekeebmxdrfztebnxz</string>
+			<string>Busy_Man-caflcxohdbcsqrfifhpdehydvzbt</string>
 			<key>timeStartedRecording</key>
-			<real>695155993.97041094</real>
+			<real>695216582.16595995</real>
 			<key>timeStoppedRecording</key>
-			<real>695155994.26358497</real>
+			<real>695216583.49026203</real>
 			<key>title</key>
-			<string>Build target SnapKit-Dynamic</string>
+			<string>Build target Busy Man</string>
 			<key>uniqueIdentifier</key>
-			<string>12050D3A-6BBB-48F9-B6F7-07CF1AA6B1B2</string>
+			<string>3D6AA70F-B4E4-428C-B002-0AA3848A08E4</string>
 		</dict>
 		<key>4F3A1360-AB98-4CEF-B948-04CE01BE3359</key>
 		<dict>
@@ -90,16 +90,16 @@
 			<key>uniqueIdentifier</key>
 			<string>5E7825FC-F23A-4B95-BB0F-51656117A91E</string>
 		</dict>
-		<key>903D4DFE-0DA0-404F-BFBC-8CE23C1DDC5B</key>
+		<key>8190903F-5425-4DB0-8FDB-CEEBB250E14C</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
 			<key>documentTypeString</key>
 			<string>&lt;nil&gt;</string>
 			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
 			<key>fileName</key>
-			<string>903D4DFE-0DA0-404F-BFBC-8CE23C1DDC5B.xcactivitylog</string>
+			<string>8190903F-5425-4DB0-8FDB-CEEBB250E14C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -108,15 +108,15 @@
 				<string>S</string>
 			</dict>
 			<key>signature</key>
-			<string>Busy_Man-caflcxohdbcsqrfifhpdehydvzbt</string>
+			<string>SnapKit-Dynamic-ckvmdihmomsekeebmxdrfztebnxz</string>
 			<key>timeStartedRecording</key>
-			<real>695164024.77158403</real>
+			<real>695210361.67063701</real>
 			<key>timeStoppedRecording</key>
-			<real>695164025.44384897</real>
+			<real>695210361.955791</real>
 			<key>title</key>
-			<string>Build target Busy Man</string>
+			<string>Build target SnapKit-Dynamic</string>
 			<key>uniqueIdentifier</key>
-			<string>903D4DFE-0DA0-404F-BFBC-8CE23C1DDC5B</string>
+			<string>8190903F-5425-4DB0-8FDB-CEEBB250E14C</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

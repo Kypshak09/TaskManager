@@ -18,7 +18,7 @@ class AddMeetingCell: UITableViewCell {
     
     let switcher: UISwitch = {
         let switcher = UISwitch()
-        switcher.isOn = true
+        switcher.isOn = false
         switcher.isHidden = true
         return switcher
     }()
@@ -40,9 +40,14 @@ class AddMeetingCell: UITableViewCell {
         
         
     }
+    
+    @objc func switcherChange(paramTarget: UISwitch) {
+        
+    }
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         selectionStyle = .none
+        switcher.addTarget(self, action: #selector(switcherChange(paramTarget: )), for: .allEvents)
         
         constraintsCell()
         
@@ -67,11 +72,11 @@ class AddMeetingCell: UITableViewCell {
                 make.bottom.equalToSuperview().offset(-10)
             }
             
-            cellView.addSubview(switcher)
+            self.contentView.addSubview(switcher)
             switcher.snp.makeConstraints { make in
                 make.width.equalTo(30)
-                make.centerX.equalToSuperview()
-                make.bottom.equalToSuperview().offset(-10)
+                make.top.equalToSuperview().offset(5)
+                make.trailing.equalToSuperview().offset(-35)
             }
         }
     }

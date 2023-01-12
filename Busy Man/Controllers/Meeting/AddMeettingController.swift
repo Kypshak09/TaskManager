@@ -13,6 +13,7 @@ class AddMeetingController: UITableViewController {
         tableView.backgroundColor = .systemGray2
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.bounces = false
         self.tableView.register(AddMeetingCell.self, forCellReuseIdentifier: identifier)
         self.tableView.register(HeaderMeeting.self, forHeaderFooterViewReuseIdentifier: header)
         
@@ -51,5 +52,26 @@ class AddMeetingController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         40
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let cell = tableView.cellForRow(at: indexPath) as! AddMeetingCell
+        
+        switch indexPath {
+        case [2,0]: alertDate(label: cell.label) { numberWeek, date in
+            print(numberWeek, date)
+        }
+        case [2,1]: alertTime(label: cell.label) { time in
+            print(time)
+        }
+        case[0,0]: alertLabel(label: cell.label, name: "Type of meeting", placeholder: "Enter type of meeting")
+        case[0,1]: alertLabel(label: cell.label, name: "Type city", placeholder: "Enter city")
+        case[0,2]: alertLabel(label: cell.label, name: "Type address of meeting", placeholder: "Enter address of meeting")
+        case[1,0]: alertLabel(label: cell.label, name: "Type name of person", placeholder: "Enter name here")
+        case[3,0]: navigationController?.pushViewController(ChooseColorMeeting(), animated: true)
+        default: print("Error")
+        }
+        
     }
 }

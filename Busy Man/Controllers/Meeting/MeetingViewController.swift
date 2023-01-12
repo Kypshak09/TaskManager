@@ -87,7 +87,6 @@ class MeetingViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(MeetingCell.self, forCellReuseIdentifier: idMeetingCell)
-        
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButton))
         
         calendarButton.addTarget(self, action: #selector(tappedCalendarButton), for: .touchUpInside)
