@@ -3,11 +3,17 @@ import SnapKit
 
 class MeetingCell: UITableViewCell {
     
-    let test = UILabel(text: "Програмирование", font: UIFont(name: "Avenir Next Demi Bold", size: 20), aligment: .left)
+    let typeOfMeeeting = UILabel(text: "Програмирование", font: UIFont(name: "Avenir Next Demi Bold", size: 20), aligment: .left)
     
-    let lessonTime1 = UILabel(text: "09:00", font: UIFont(name: "Avenir Next Demi Bold", size: 15), aligment: .left)
+    let lessonTime1 = UILabel(text: "09:00", font: UIFont(name: "Avenir Next Demi Bold", size: 10), aligment: .left)
     
-    let test1 = UILabel(text: "Дядя степа", font: UIFont(name: "Avenir Next Demi", size: 20), aligment: .left)
+    let namePerson = UILabel(text: "Дядя степа", font: UIFont(name: "Avenir Next Demi", size: 20), aligment: .left)
+    
+    let date = UILabel(text: "13.02.2023", font: UIFont(name: "Avenir Next Demi", size: 15), aligment: .left)
+    
+    let city = UILabel(text: "Karaganda", font: UIFont(name: "Times New Roman", size: 10), aligment: .left)
+    
+    
    
     
     override func awakeFromNib() {
@@ -20,7 +26,7 @@ class MeetingCell: UITableViewCell {
         
         selectionStyle = .none
         
-        let stackView = UIStackView(arrangedSubViews: [test, test1], axis: .horizontal, spacing: 80, distribution: .fillEqually)
+        let stackView = UIStackView(arrangedSubViews: [typeOfMeeeting, namePerson], axis: .horizontal, spacing: 80, distribution: .fillEqually)
         
         
         self.addSubview(stackView)

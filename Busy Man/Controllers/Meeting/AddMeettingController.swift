@@ -5,11 +5,13 @@ class AddMeetingController: UITableViewController {
     
     let identifier = "identifierAddMeController"
     let header = "header"
+    
+    let headerArray = ["Place and type of meeting","Person", "Date and time", "Color", "Period"]
  
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Add new meeting"
+        title = "New meeting"
         tableView.backgroundColor = .systemGray2
         tableView.delegate = self
         tableView.dataSource = self
@@ -46,7 +48,7 @@ class AddMeetingController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: header) as! HeaderMeeting
-        header.label.text = header.headerArray[section]
+        header.label.text = headerArray[section]
         return header
     }
     

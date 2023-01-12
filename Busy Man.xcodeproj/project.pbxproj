@@ -15,7 +15,11 @@
 		2560759F29700F1E00119808 /* AlertDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2560759E29700F1E00119808 /* AlertDate.swift */; };
 		256075A1297017D200119808 /* AlertTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256075A0297017D200119808 /* AlertTime.swift */; };
 		256075A32970198B00119808 /* AlertLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256075A22970198B00119808 /* AlertLabels.swift */; };
-		256075A52970292700119808 /* ChooseColorMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256075A42970292700119808 /* ChooseColorMeeting.swift */; };
+		256075AF29705B6C00119808 /* ChooseColorMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256075AE29705B6C00119808 /* ChooseColorMeeting.swift */; };
+		256075B129705C0600119808 /* AddTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256075B029705C0600119808 /* AddTaskCell.swift */; };
+		256075B329705C1800119808 /* HeaderTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256075B229705C1800119808 /* HeaderTask.swift */; };
+		256075B52970771000119808 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256075B42970771000119808 /* ColorCell.swift */; };
+		256075B92970877800119808 /* CallsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256075B82970877800119808 /* CallsCell.swift */; };
 		257E534A296BC54F002AC1EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E5349296BC54F002AC1EA /* AppDelegate.swift */; };
 		257E534C296BC54F002AC1EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E534B296BC54F002AC1EA /* SceneDelegate.swift */; };
 		257E534E296BC54F002AC1EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E534D296BC54F002AC1EA /* MainViewController.swift */; };
@@ -40,7 +44,11 @@
 		2560759E29700F1E00119808 /* AlertDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDate.swift; sourceTree = "<group>"; };
 		256075A0297017D200119808 /* AlertTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTime.swift; sourceTree = "<group>"; };
 		256075A22970198B00119808 /* AlertLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertLabels.swift; sourceTree = "<group>"; };
-		256075A42970292700119808 /* ChooseColorMeeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseColorMeeting.swift; sourceTree = "<group>"; };
+		256075AE29705B6C00119808 /* ChooseColorMeeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseColorMeeting.swift; sourceTree = "<group>"; };
+		256075B029705C0600119808 /* AddTaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskCell.swift; sourceTree = "<group>"; };
+		256075B229705C1800119808 /* HeaderTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTask.swift; sourceTree = "<group>"; };
+		256075B42970771000119808 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
+		256075B82970877800119808 /* CallsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsCell.swift; sourceTree = "<group>"; };
 		257E5346296BC54F002AC1EA /* Busy Man.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Busy Man.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		257E5349296BC54F002AC1EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		257E534B296BC54F002AC1EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,7 +82,7 @@
 			children = (
 				257E5364296BE7A2002AC1EA /* MeetingViewController.swift */,
 				2553E180296EF5BD00C570FF /* AddMeettingController.swift */,
-				256075A42970292700119808 /* ChooseColorMeeting.swift */,
+				256075AE29705B6C00119808 /* ChooseColorMeeting.swift */,
 			);
 			path = Meeting;
 			sourceTree = "<group>";
@@ -93,7 +101,7 @@
 			children = (
 				257E5370296C3BE6002AC1EA /* MeetingCell.swift */,
 				2553E189296F1BE700C570FF /* AddMeetingCell.swift */,
-				251A76B2296F3C8800F46EF8 /* HeaderMeeting.swift */,
+				256075B42970771000119808 /* ColorCell.swift */,
 			);
 			path = "Meeting Cells";
 			sourceTree = "<group>";
@@ -102,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				2553E17E296DA66700C570FF /* TasksCell.swift */,
+				256075B029705C0600119808 /* AddTaskCell.swift */,
+				256075B229705C1800119808 /* HeaderTask.swift */,
 			);
 			path = "Tasks Cells";
 			sourceTree = "<group>";
@@ -114,6 +124,22 @@
 				256075A22970198B00119808 /* AlertLabels.swift */,
 			);
 			path = Alerts;
+			sourceTree = "<group>";
+		};
+		256075B629707D6500119808 /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				257E5368296BE7C4002AC1EA /* CallsViewController.swift */,
+			);
+			path = Call;
+			sourceTree = "<group>";
+		};
+		256075B72970876700119808 /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				256075B82970877800119808 /* CallsCell.swift */,
+			);
+			path = Calls;
 			sourceTree = "<group>";
 		};
 		257E533D296BC54E002AC1EA = {
@@ -135,8 +161,8 @@
 		257E5348296BC54F002AC1EA /* Busy Man */ = {
 			isa = PBXGroup;
 			children = (
-				257E536D296C3B7D002AC1EA /* Model */,
 				257E5361296BE334002AC1EA /* Application */,
+				257E536D296C3B7D002AC1EA /* Model */,
 				257E5362296BE341002AC1EA /* Controllers */,
 				2582A92A296D91640056DE05 /* Extenstions for UI */,
 				257E5363296BE35D002AC1EA /* Others */,
@@ -159,7 +185,7 @@
 				257E534D296BC54F002AC1EA /* MainViewController.swift */,
 				2553E182296EF5C500C570FF /* Meeting */,
 				2553E185296EF5EF00C570FF /* Tasks */,
-				257E5368296BE7C4002AC1EA /* CallsViewController.swift */,
+				256075B629707D6500119808 /* Call */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -186,8 +212,10 @@
 		257E5372296C3E77002AC1EA /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				251A76B2296F3C8800F46EF8 /* HeaderMeeting.swift */,
 				2553E187296F1BAA00C570FF /* Meeting Cells */,
 				2553E188296F1BCB00C570FF /* Tasks Cells */,
+				256075B72970876700119808 /* Calls */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -279,11 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				256075A52970292700119808 /* ChooseColorMeeting.swift in Sources */,
+				256075AF29705B6C00119808 /* ChooseColorMeeting.swift in Sources */,
 				257E5371296C3BE6002AC1EA /* MeetingCell.swift in Sources */,
+				256075B52970771000119808 /* ColorCell.swift in Sources */,
 				256075A1297017D200119808 /* AlertTime.swift in Sources */,
 				256075A32970198B00119808 /* AlertLabels.swift in Sources */,
 				2553E18A296F1BE700C570FF /* AddMeetingCell.swift in Sources */,
+				256075B129705C0600119808 /* AddTaskCell.swift in Sources */,
 				251A76B3296F3C8800F46EF8 /* HeaderMeeting.swift in Sources */,
 				2553E181296EF5BD00C570FF /* AddMeettingController.swift in Sources */,
 				2560759F29700F1E00119808 /* AlertDate.swift in Sources */,
@@ -294,9 +324,11 @@
 				257E534A296BC54F002AC1EA /* AppDelegate.swift in Sources */,
 				257E5367296BE7B5002AC1EA /* TasksViewController.swift in Sources */,
 				257E5365296BE7A2002AC1EA /* MeetingViewController.swift in Sources */,
+				256075B92970877800119808 /* CallsCell.swift in Sources */,
 				257E5369296BE7C4002AC1EA /* CallsViewController.swift in Sources */,
 				2582A92C296D91760056DE05 /* UILabel.swift in Sources */,
 				257E534C296BC54F002AC1EA /* SceneDelegate.swift in Sources */,
+				256075B329705C1800119808 /* HeaderTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

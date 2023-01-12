@@ -71,6 +71,9 @@ class TasksViewController: UIViewController {
         
         let idTaskCell = "idTaskCell"
 
+    @objc func goToAddTaskController() {
+        navigationController?.pushViewController(AddTaskController(), animated: true)
+    }
     
 //MARK: - ViewDidLoad and constraints
     override func viewDidLoad() {
@@ -82,6 +85,7 @@ class TasksViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(TasksCell.self, forCellReuseIdentifier: idTaskCell)
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(goToAddTaskController))
         
         calendarButton.addTarget(self, action: #selector(tappedCalendarButton), for: .touchUpInside)
         swipeCalendar()

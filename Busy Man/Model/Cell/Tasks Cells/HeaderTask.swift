@@ -1,10 +1,10 @@
 import UIKit
 import SnapKit
 
-class HeaderMeeting: UITableViewHeaderFooterView {
+class HeaderTask: UITableViewHeaderFooterView {
     
     let label = UILabel(text: "", font: UIFont(name: "New Roman Bold", size: 25), aligment: .left)
-    let headerArray = ["Place and type of meeting","Person", "Date and time", "Color", "Period"]
+    let headerArray = ["Task","Date and time"]
     
     override init(reuseIdentifier: String?) {
         super.init(reuseIdentifier: reuseIdentifier)
