@@ -12,10 +12,7 @@ class MeetingCell: UITableViewCell {
     let date = UILabel(text: "13.02.2023", font: UIFont(name: "Avenir Next Demi", size: 15), aligment: .left)
     
     let city = UILabel(text: "Karaganda", font: UIFont(name: "Times New Roman", size: 10), aligment: .left)
-    
-    
-   
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         

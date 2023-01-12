@@ -22,7 +22,12 @@ class CallsViewController: UITableViewController {
         tableView.separatorStyle = .singleLine
         tableView.bounces = false
         self.tableView.register(CallsCell.self, forCellReuseIdentifier: identifier)
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(goToAddContact))
         
+    }
+    
+    @objc func goToAddContact() {
+        navigationController?.pushViewController(AddCallsController(), animated: true)
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {

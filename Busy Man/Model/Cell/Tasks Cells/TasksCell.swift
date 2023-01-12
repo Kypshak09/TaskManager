@@ -15,7 +15,6 @@ class TasksCell: UITableViewCell {
     }()
     
     @objc func buttonTouched() {
-        print("yeah boy")
         if buttonCheck.currentImage == UIImage(systemName: "circle") {
             buttonCheck.setImage(UIImage(systemName: "checkmark.circle"), for: .normal)
         } else {
