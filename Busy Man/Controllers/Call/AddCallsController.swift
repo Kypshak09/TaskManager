@@ -68,9 +68,15 @@ class AddCallsController: UITableViewController {
         let cell = tableView.cellForRow(at: indexPath) as! AddCallsCell
         
         switch indexPath {
-        case[0,0]: alertLabel(label: cell.label, name: "Name", placeholder: "Type here")
-        case[1,0]: alertLabel(label: cell.label, name: "Phone", placeholder: "Type here")
-        case[2,0]: alertLabel(label: cell.label, name: "Mail", placeholder: "Type here")
+        case[0,0]: alertLabel(label: cell.label, name: "Name", placeholder: "Type here", completionHandler: {
+            text in
+        })
+        case[1,0]: alertLabel(label: cell.label, name: "Phone", placeholder: "Type here", completionHandler: {
+            text in
+        })
+        case[2,0]: alertLabel(label: cell.label, name: "Mail", placeholder: "Type here", completionHandler: {
+            text in
+        })
         case[3,0]: alertType(label: cell.label) { type in
             print(type)
         }

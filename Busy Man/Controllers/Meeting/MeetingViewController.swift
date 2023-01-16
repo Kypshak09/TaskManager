@@ -92,6 +92,8 @@ class MeetingViewController: UIViewController {
         navigationController?.tabBarController?.tabBar.scrollEdgeAppearance = navigationController?.tabBarController?.tabBar.standardAppearance
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButton))
         
+        
+        
         calendarButton.addTarget(self, action: #selector(tappedCalendarButton), for: .touchUpInside)
         swipeCalendar()
         

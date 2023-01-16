@@ -3,8 +3,8 @@ import SnapKit
 
 class AddTaskController: UITableViewController {
     
-    let identifier = "identifierAddTaskController"
-    let header = "headerTask"
+   private let identifier = "identifierAddTaskController"
+   private let header = "headerTask"
  
     
     override func viewDidLoad() {
@@ -63,8 +63,12 @@ class AddTaskController: UITableViewController {
         case [1,1]: alertTime(label: cell.label) { time in
             print(time)
         }
-        case[0,0]: alertLabel(label: cell.label, name: "Title of Task", placeholder: "Type here")
-        case[0,1]: alertLabel(label: cell.label, name: "Description of Task", placeholder: "Type here")
+        case[0,0]: alertLabel(label: cell.label, name: "Title of Task", placeholder: "Type here", completionHandler: {
+            text in
+        })
+        case[0,1]: alertLabel(label: cell.label, name: "Description of Task", placeholder: "Type here", completionHandler: {
+            text in
+        })
         default: print("Error")
         }
         

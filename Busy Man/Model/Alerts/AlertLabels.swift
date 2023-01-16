@@ -2,7 +2,7 @@ import UIKit
 
 extension UIViewController {
     
-    func alertLabel(label: UILabel,name: String, placeholder: String) {
+    func alertLabel(label: UILabel,name: String, placeholder: String, completionHandler: @escaping (String)-> Void) {
         let alert = UIAlertController(title: name, message: nil, preferredStyle: .alert)
         
         

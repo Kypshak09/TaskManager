@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		251A76B3296F3C8800F46EF8 /* HeaderMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A76B2296F3C8800F46EF8 /* HeaderMeeting.swift */; };
+		252F08F929752E89003E8A23 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 252F08F829752E89003E8A23 /* SnapKit-Dynamic */; };
+		252F08FC29752E99003E8A23 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 252F08FB29752E99003E8A23 /* FSCalendar */; };
+		252F0909297535A4003E8A23 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 252F0908297535A4003E8A23 /* Realm */; };
+		252F090B297535A4003E8A23 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 252F090A297535A4003E8A23 /* RealmSwift */; };
+		252F090E29753982003E8A23 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252F090D29753982003E8A23 /* RealmManager.swift */; };
 		2553E17F296DA66700C570FF /* TasksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2553E17E296DA66700C570FF /* TasksCell.swift */; };
 		2553E181296EF5BD00C570FF /* AddMeettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2553E180296EF5BD00C570FF /* AddMeettingController.swift */; };
 		2553E184296EF5E900C570FF /* AddTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2553E183296EF5E900C570FF /* AddTaskController.swift */; };
@@ -25,23 +30,24 @@
 		256075BF29709AA100119808 /* HeaderCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256075BE29709AA100119808 /* HeaderCall.swift */; };
 		256075C12970BB9700119808 /* AlertTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256075C02970BB9700119808 /* AlertTypes.swift */; };
 		256075C32970CA7400119808 /* AlertPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256075C22970CA7400119808 /* AlertPhoto.swift */; };
+		256075CB2970D18A00119808 /* MeetingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256075CA2970D18A00119808 /* MeetingData.swift */; };
 		257E534A296BC54F002AC1EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E5349296BC54F002AC1EA /* AppDelegate.swift */; };
 		257E534C296BC54F002AC1EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E534B296BC54F002AC1EA /* SceneDelegate.swift */; };
 		257E534E296BC54F002AC1EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E534D296BC54F002AC1EA /* MainViewController.swift */; };
 		257E5353296BC555002AC1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257E5352296BC555002AC1EA /* Assets.xcassets */; };
 		257E5356296BC555002AC1EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257E5354296BC555002AC1EA /* LaunchScreen.storyboard */; };
-		257E535F296BC8C2002AC1EA /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 257E535E296BC8C2002AC1EA /* SnapKit-Dynamic */; };
 		257E5365296BE7A2002AC1EA /* MeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E5364296BE7A2002AC1EA /* MeetingViewController.swift */; };
 		257E5367296BE7B5002AC1EA /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E5366296BE7B5002AC1EA /* TasksViewController.swift */; };
 		257E5369296BE7C4002AC1EA /* CallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E5368296BE7C4002AC1EA /* CallsViewController.swift */; };
-		257E536C296BF9FC002AC1EA /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 257E536B296BF9FC002AC1EA /* FSCalendar */; };
 		257E5371296C3BE6002AC1EA /* MeetingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E5370296C3BE6002AC1EA /* MeetingCell.swift */; };
 		2582A92C296D91760056DE05 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582A92B296D91760056DE05 /* UILabel.swift */; };
 		2582A92E296D93DD0056DE05 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582A92D296D93DD0056DE05 /* UIStackView.swift */; };
+		25CB157A29759B7400694CFD /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB157929759B7400694CFD /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		251A76B2296F3C8800F46EF8 /* HeaderMeeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderMeeting.swift; sourceTree = "<group>"; };
+		252F090D29753982003E8A23 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		2553E17E296DA66700C570FF /* TasksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksCell.swift; sourceTree = "<group>"; };
 		2553E180296EF5BD00C570FF /* AddMeettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeettingController.swift; sourceTree = "<group>"; };
 		2553E183296EF5E900C570FF /* AddTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskController.swift; sourceTree = "<group>"; };
@@ -59,6 +65,7 @@
 		256075BE29709AA100119808 /* HeaderCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCall.swift; sourceTree = "<group>"; };
 		256075C02970BB9700119808 /* AlertTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTypes.swift; sourceTree = "<group>"; };
 		256075C22970CA7400119808 /* AlertPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPhoto.swift; sourceTree = "<group>"; };
+		256075CA2970D18A00119808 /* MeetingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingData.swift; sourceTree = "<group>"; };
 		257E5346296BC54F002AC1EA /* Busy Man.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Busy Man.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		257E5349296BC54F002AC1EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		257E534B296BC54F002AC1EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +79,7 @@
 		257E5370296C3BE6002AC1EA /* MeetingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingCell.swift; sourceTree = "<group>"; };
 		2582A92B296D91760056DE05 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		2582A92D296D93DD0056DE05 /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		25CB157929759B7400694CFD /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,14 +87,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				257E535F296BC8C2002AC1EA /* SnapKit-Dynamic in Frameworks */,
-				257E536C296BF9FC002AC1EA /* FSCalendar in Frameworks */,
+				252F090B297535A4003E8A23 /* RealmSwift in Frameworks */,
+				252F0909297535A4003E8A23 /* Realm in Frameworks */,
+				252F08F929752E89003E8A23 /* SnapKit-Dynamic in Frameworks */,
+				252F08FC29752E99003E8A23 /* FSCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		252F090C2975395F003E8A23 /* RealmManager */ = {
+			isa = PBXGroup;
+			children = (
+				252F090D29753982003E8A23 /* RealmManager.swift */,
+			);
+			path = RealmManager;
+			sourceTree = "<group>";
+		};
 		2553E182296EF5C500C570FF /* Meeting */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +175,14 @@
 			path = Calls;
 			sourceTree = "<group>";
 		};
+		256075C92970D17600119808 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				256075CA2970D18A00119808 /* MeetingData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		257E533D296BC54E002AC1EA = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +202,7 @@
 		257E5348296BC54F002AC1EA /* Busy Man */ = {
 			isa = PBXGroup;
 			children = (
+				252F090C2975395F003E8A23 /* RealmManager */,
 				257E5361296BE334002AC1EA /* Application */,
 				257E536D296C3B7D002AC1EA /* Model */,
 				257E5362296BE341002AC1EA /* Controllers */,
@@ -218,6 +245,7 @@
 		257E536D296C3B7D002AC1EA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				256075C92970D17600119808 /* Data */,
 				2560759D29700EEB00119808 /* Alerts */,
 				257E5372296C3E77002AC1EA /* Cell */,
 			);
@@ -240,6 +268,7 @@
 			children = (
 				2582A92B296D91760056DE05 /* UILabel.swift */,
 				2582A92D296D93DD0056DE05 /* UIStackView.swift */,
+				25CB157929759B7400694CFD /* UIColor.swift */,
 			);
 			path = "Extenstions for UI";
 			sourceTree = "<group>";
@@ -261,8 +290,10 @@
 			);
 			name = "Busy Man";
 			packageProductDependencies = (
-				257E535E296BC8C2002AC1EA /* SnapKit-Dynamic */,
-				257E536B296BF9FC002AC1EA /* FSCalendar */,
+				252F08F829752E89003E8A23 /* SnapKit-Dynamic */,
+				252F08FB29752E99003E8A23 /* FSCalendar */,
+				252F0908297535A4003E8A23 /* Realm */,
+				252F090A297535A4003E8A23 /* RealmSwift */,
 			);
 			productName = "Busy Man";
 			productReference = 257E5346296BC54F002AC1EA /* Busy Man.app */;
@@ -293,8 +324,9 @@
 			);
 			mainGroup = 257E533D296BC54E002AC1EA;
 			packageReferences = (
-				257E535D296BC8C2002AC1EA /* XCRemoteSwiftPackageReference "SnapKit" */,
-				257E536A296BF9FC002AC1EA /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				252F08F729752E89003E8A23 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				252F08FA29752E99003E8A23 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				252F0907297535A4003E8A23 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 257E5347296BC54F002AC1EA /* Products */;
 			projectDirPath = "";
@@ -325,6 +357,7 @@
 				256075AF29705B6C00119808 /* ChooseColorMeeting.swift in Sources */,
 				256075BF29709AA100119808 /* HeaderCall.swift in Sources */,
 				257E5371296C3BE6002AC1EA /* MeetingCell.swift in Sources */,
+				256075CB2970D18A00119808 /* MeetingData.swift in Sources */,
 				256075B52970771000119808 /* ColorCell.swift in Sources */,
 				256075A1297017D200119808 /* AlertTime.swift in Sources */,
 				256075A32970198B00119808 /* AlertLabels.swift in Sources */,
@@ -335,10 +368,12 @@
 				256075C12970BB9700119808 /* AlertTypes.swift in Sources */,
 				2553E181296EF5BD00C570FF /* AddMeettingController.swift in Sources */,
 				2560759F29700F1E00119808 /* AlertDate.swift in Sources */,
+				252F090E29753982003E8A23 /* RealmManager.swift in Sources */,
 				2553E184296EF5E900C570FF /* AddTaskController.swift in Sources */,
 				2582A92E296D93DD0056DE05 /* UIStackView.swift in Sources */,
 				2553E17F296DA66700C570FF /* TasksCell.swift in Sources */,
 				257E534E296BC54F002AC1EA /* MainViewController.swift in Sources */,
+				25CB157A29759B7400694CFD /* UIColor.swift in Sources */,
 				257E534A296BC54F002AC1EA /* AppDelegate.swift in Sources */,
 				257E5367296BE7B5002AC1EA /* TasksViewController.swift in Sources */,
 				257E5365296BE7A2002AC1EA /* MeetingViewController.swift in Sources */,
@@ -558,7 +593,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		257E535D296BC8C2002AC1EA /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		252F08F729752E89003E8A23 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
 			requirement = {
@@ -566,7 +601,7 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		257E536A296BF9FC002AC1EA /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+		252F08FA29752E99003E8A23 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/WenchaoD/FSCalendar";
 			requirement = {
@@ -574,18 +609,36 @@
 				minimumVersion = 2.0.0;
 			};
 		};
+		252F0907297535A4003E8A23 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.8.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		257E535E296BC8C2002AC1EA /* SnapKit-Dynamic */ = {
+		252F08F829752E89003E8A23 /* SnapKit-Dynamic */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 257E535D296BC8C2002AC1EA /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = 252F08F729752E89003E8A23 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = "SnapKit-Dynamic";
 		};
-		257E536B296BF9FC002AC1EA /* FSCalendar */ = {
+		252F08FB29752E99003E8A23 /* FSCalendar */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 257E536A296BF9FC002AC1EA /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			package = 252F08FA29752E99003E8A23 /* XCRemoteSwiftPackageReference "FSCalendar" */;
 			productName = FSCalendar;
+		};
+		252F0908297535A4003E8A23 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 252F0907297535A4003E8A23 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		252F090A297535A4003E8A23 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 252F0907297535A4003E8A23 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
