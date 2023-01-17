@@ -10,7 +10,8 @@ extension UIViewController {
   
             let textField = alert.textFields?.first
             guard let text = textField?.text else {return}
-            label.text = text
+            label.text = (text != "" ? text: label.text)
+            completionHandler(text)
         }
         alert.addTextField { (text) in
             text.placeholder = placeholder

@@ -8,6 +8,7 @@
 import UIKit
 import FSCalendar
 import SnapKit
+import RealmSwift
 
 class MeetingViewController: UIViewController {
     // Height of Calendar
@@ -77,12 +78,17 @@ class MeetingViewController: UIViewController {
         navigationController?.pushViewController(AddMeetingController(), animated: true)
     }
     
-    
+    let realm = try! Realm()
+    var meetingModel: Results<MeetingData>!
     
 //MARK: - ViewDidLoad and constraints
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Meetings"
+        
+        meetingModel = realm.objects(MeetingData.self)
+        print(meetingModel)
+        
         calendar.delegate = self
         calendar.dataSource = self
         calendar.scope = .week
@@ -116,6 +122,7 @@ class MeetingViewController: UIViewController {
         }
         
         view.addSubview(tableView)
+        tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.snp.makeConstraints { make in
             make.top.equalTo(calendarButton).offset(30)
             make.trailing.equalToSuperview()
@@ -132,6 +139,10 @@ extension MeetingViewController: FSCalendarDelegate, FSCalendarDataSource {
     func calendar(_ calendar: FSCalendar, boundingRectWillChange bounds: CGRect, animated: Bool) {
         calendarHeight.constant = bounds.height
         view.layoutIfNeeded()
+    }
+    
+    func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
+        print(calendar)
     }
 }
 

@@ -43,6 +43,7 @@
 		2582A92C296D91760056DE05 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582A92B296D91760056DE05 /* UILabel.swift */; };
 		2582A92E296D93DD0056DE05 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582A92D296D93DD0056DE05 /* UIStackView.swift */; };
 		25CB157A29759B7400694CFD /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB157929759B7400694CFD /* UIColor.swift */; };
+		25CB157C2975ACB300694CFD /* AlertSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB157B2975ACB300694CFD /* AlertSave.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		2582A92B296D91760056DE05 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		2582A92D296D93DD0056DE05 /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
 		25CB157929759B7400694CFD /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		25CB157B2975ACB300694CFD /* AlertSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSave.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				256075A22970198B00119808 /* AlertLabels.swift */,
 				256075C02970BB9700119808 /* AlertTypes.swift */,
 				256075C22970CA7400119808 /* AlertPhoto.swift */,
+				25CB157B2975ACB300694CFD /* AlertSave.swift */,
 			);
 			path = Alerts;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				256075B92970877800119808 /* CallsCell.swift in Sources */,
 				257E5369296BE7C4002AC1EA /* CallsViewController.swift in Sources */,
 				2582A92C296D91760056DE05 /* UILabel.swift in Sources */,
+				25CB157C2975ACB300694CFD /* AlertSave.swift in Sources */,
 				256075BD297099DD00119808 /* AddCallsCell.swift in Sources */,
 				256075C32970CA7400119808 /* AlertPhoto.swift in Sources */,
 				257E534C296BC54F002AC1EA /* SceneDelegate.swift in Sources */,

@@ -6,8 +6,7 @@ class ChooseColorMeeting: UITableViewController {
     let identifier = "identifierChooseMeeting"
     let header = "headerChooseMeeting"
     
-    let headerArray = ["White","Red", "Blue", "Yellow", "Green", "Gray"]
- 
+    let headerArray = ["Red","Orange", "Yellow", "Green", "Blue", "Deep Blue"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,5 +59,30 @@ class ChooseColorMeeting: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as! ColorCell
         cell.getCellNames(indexPath: indexPath)
+        
+        switch indexPath.section {
+        case 0:
+            setColor(color: "BE2813")
+        case 1:
+            setColor(color: "F07F5A")
+        case 2:
+            setColor(color: "F3AF22")
+        case 3:
+            setColor(color: "467C24")
+        case 4:
+            setColor(color: "2D7FC1")
+        case 5:
+            setColor(color: "1A4766")
+        default :
+            print("Error")
+        }
+    }
+    
+    func setColor(color: String) {
+        let meeting = self.navigationController?.viewControllers[1] as? AddMeetingController
+        meeting?.hexColorCell = color
+        print(color)
+        meeting?.tableView.reloadRows(at: [[3,0]], with: .none)
+        self.navigationController?.popViewController(animated: true)
     }
 }

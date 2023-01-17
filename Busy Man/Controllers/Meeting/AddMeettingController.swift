@@ -8,6 +8,8 @@ class AddMeetingController: UITableViewController {
    private let header = "header"
     
     let headerArray = ["Place and type of meeting","Person", "Date and time", "Color", "Period"]
+    
+    var hexColorCell = String()
  
     private var meetingData = MeetingData()
     
@@ -26,6 +28,17 @@ class AddMeetingController: UITableViewController {
     @objc func saveMeetings() {
         
         RealmManager.shared.saveMeetingData(data: meetingData)
+
+        meetingData = MeetingData()
+        
+        alertSave(title: "Successfully added")
+        
+        tableView.reloadRows(at: [[0,0],[0,1],[0,2],[1,0],[2,0],[2,1]], with: .automatic)
+        
+        meetingData.color = hexColorCell
+        print(hexColorCell)
+        
+        
         
     }
     
@@ -45,8 +58,9 @@ class AddMeetingController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as! AddMeetingCell
+        let color = UIColor().color(hexColorCell)
+        cell.backgroundColor = (indexPath.section == 3 ? color: .white)
         cell.getCellNames(indexPath: indexPath)
-        cell.backgroundColor = .systemGray2
         return cell
     }
     
@@ -75,18 +89,19 @@ class AddMeetingController: UITableViewController {
         case [2,1]: alertTime(label: cell.label) { time in
             self.meetingData.time = time
         }
-        case[0,0]: alertLabel(label: cell.label, name: "Type of meeting", placeholder: "Enter type of meeting", completionHandler: { text in
+        case [0,0]: alertLabel(label: cell.label, name: "Type of meeting", placeholder: "Enter type of meeting") { text in
             self.meetingData.typeOfMeeting = text
-        })
-        case[0,1]: alertLabel(label: cell.label, name: "Type city", placeholder: "Enter city", completionHandler: { text in
+            print(text)
+        }
+        case [0,1]: alertLabel(label: cell.label, name: "Type city", placeholder: "Enter city"){ text in
             self.meetingData.city = text
-        })
-        case[0,2]: alertLabel(label: cell.label, name: "Type address of meeting", placeholder: "Enter address of meeting", completionHandler: { text in
+        }
+        case [0,2]: alertLabel(label: cell.label, name: "Type address of meeting", placeholder: "Enter address of meeting") { text in
             self.meetingData.address = text
-        })
-        case[1,0]: alertLabel(label: cell.label, name: "Type name of person", placeholder: "Enter name here", completionHandler: { text in
+        }
+        case [1,0]: alertLabel(label: cell.label, name: "Type name of person", placeholder: "Enter name here"){ text in
             self.meetingData.name = text
-        })
+        }
         case[3,0]: navigationController?.pushViewController(ChooseColorMeeting(), animated: true)
         default: print("Error")
         }
