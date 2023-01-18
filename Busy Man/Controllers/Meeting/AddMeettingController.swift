@@ -27,12 +27,17 @@ class AddMeetingController: UITableViewController {
     }
     @objc func saveMeetings() {
         
-        RealmManager.shared.saveMeetingData(data: meetingData)
-        meetingData = MeetingData()
-        alertSave(title: "Successfully added")
-        tableView.reloadRows(at: [[0,0],[0,1],[0,2],[1,0],[2,0],[2,1]], with: .automatic)
-        meetingData.color = hexColorCell
-        print(meetingData.color)
+        if meetingData.date == nil || meetingData.time == nil || meetingData.name == "" {
+            alertSave(title: "Error", message: "Required to fill all cells")
+        } else {
+            RealmManager.shared.saveMeetingData(data: meetingData)
+            meetingData = MeetingData()
+            alertSave(title: "Successfully added", message: nil)
+            tableView.reloadRows(at: [[0,0],[0,1],[0,2],[1,0],[2,0],[2,1]], with: .automatic)
+            meetingData.color = hexColorCell
+            print(meetingData.color)
+        }
+
         
         
         
@@ -74,6 +79,8 @@ class AddMeetingController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         40
     }
+    
+    
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         

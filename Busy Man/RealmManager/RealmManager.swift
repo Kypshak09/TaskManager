@@ -18,4 +18,10 @@ class RealmManager {
         }
         print("Realm is located at:", localRealm.configuration.fileURL!)
     }
+    
+    func deleteMeetingData(data: MeetingData) {
+        try! localRealm.write {
+            localRealm.delete(data)
+        }
+    }
 }

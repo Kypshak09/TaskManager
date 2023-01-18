@@ -5,6 +5,7 @@ class AddMeetingCell: UITableViewCell {
     
     let cellView: UIView = {
         let view = UIView()
+        view.backgroundColor = .white
         view.layer.cornerRadius = 10
         return view
     }()
@@ -32,6 +33,7 @@ class AddMeetingCell: UITableViewCell {
         
         if indexPath == [3,0] {
             switcher.isHidden = true
+            cellView.backgroundColor = .clear
         }
         
         if indexPath == [4,0] {

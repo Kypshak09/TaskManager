@@ -81,6 +81,11 @@ class MeetingViewController: UIViewController {
     let realm = try! Realm()
     var meetingArray: Results<MeetingData>!
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.reloadData()
+    }
+    
 //MARK: - ViewDidLoad and constraints
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -148,7 +153,7 @@ class MeetingViewController: UIViewController {
     let predicateUnrepeat = NSPredicate(format: "repeatPeriod = false AND date BETWEEN %@", [dateStart,dateEnd])
     let compound = NSCompoundPredicate(type: .or, subpredicates: [predicateRepeat,predicateUnrepeat])
 
-        meetingArray = realm.objects(MeetingData.self).filter(compound)
+        meetingArray = realm.objects(MeetingData.self).filter(compound).sorted(byKeyPath: "time" )
         tableView.reloadData()
     }
 }
@@ -174,11 +179,20 @@ extension MeetingViewController: UITableViewDelegate, UITableViewDataSource {
         
     }
     
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let row = meetingArray[indexPath.row]
+        
+        let delete = UIContextualAction(style: .destructive, title: "Delete") { _, _, completionHandler in
+            RealmManager.shared.deleteMeetingData(data: row)
+            tableView.reloadData()
+        }
+        return UISwipeActionsConfiguration(actions: [delete])
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: idMeetingCell, for: indexPath) as! MeetingCell
         let data = meetingArray[indexPath.row]
         cell.configure(data: data)
-        
         return cell
     }
     

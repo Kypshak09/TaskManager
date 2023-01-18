@@ -47,7 +47,7 @@ class ColorCell: UITableViewCell {
     }
     
     func constraintsCell() {
-        self.addSubview(cellView)
+        self.contentView.addSubview(cellView)
         cellView.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
             make.top.equalToSuperview()

@@ -28,8 +28,10 @@ class MeetingCell: UITableViewCell {
         namePerson.text = data.name
         city.text = data.city
         address.text = data.address
-        meetingTime.text = timeFormatter.string(from: data.time!)
-        date.text = dateFormatter.string(from: data.date!)
+        guard let time = data.time else {return}
+        meetingTime.text = timeFormatter.string(from: time)
+        guard let dateOfMeeting = data.date else {return}
+        date.text = dateFormatter.string(from: dateOfMeeting)
         backgroundColor = UIColor().color(data.color)
         
         
