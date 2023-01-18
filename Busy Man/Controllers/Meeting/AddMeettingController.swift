@@ -28,15 +28,11 @@ class AddMeetingController: UITableViewController {
     @objc func saveMeetings() {
         
         RealmManager.shared.saveMeetingData(data: meetingData)
-
         meetingData = MeetingData()
-        
         alertSave(title: "Successfully added")
-        
         tableView.reloadRows(at: [[0,0],[0,1],[0,2],[1,0],[2,0],[2,1]], with: .automatic)
-        
         meetingData.color = hexColorCell
-        print(hexColorCell)
+        print(meetingData.color)
         
         
         
@@ -60,7 +56,8 @@ class AddMeetingController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as! AddMeetingCell
         let color = UIColor().color(hexColorCell)
         cell.backgroundColor = (indexPath.section == 3 ? color: .white)
-        cell.getCellNames(indexPath: indexPath)
+        cell.getCellNames(indexPath: indexPath, hexColor: hexColorCell)
+        cell.switchRepeat = self
         return cell
     }
     
@@ -85,6 +82,7 @@ class AddMeetingController: UITableViewController {
         switch indexPath {
         case [2,0]: alertDate(label: cell.label) { numberWeek, date in
             self.meetingData.date = date
+            self.meetingData.weekRepeat = numberWeek
         }
         case [2,1]: alertTime(label: cell.label) { time in
             self.meetingData.time = time
@@ -107,4 +105,12 @@ class AddMeetingController: UITableViewController {
         }
         
     }
+}
+
+extension AddMeetingController: SwitchRepeatProtocol {
+    func switchRepeat(value: Bool) {
+        meetingData.repeatPeriod = value
+    }
+    
+    
 }

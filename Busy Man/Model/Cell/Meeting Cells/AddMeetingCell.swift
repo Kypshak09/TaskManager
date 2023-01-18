@@ -22,24 +22,28 @@ class AddMeetingCell: UITableViewCell {
         return switcher
     }()
     
+    var switchRepeat: SwitchRepeatProtocol?
+    
     let cellNames = [["Type of Meeting","City","Address"],["Name"], ["Date", "Time"],[""],["Period"]]
 
     
-    func getCellNames(indexPath: IndexPath) {
+    func getCellNames(indexPath: IndexPath, hexColor: String) {
         label.text = cellNames[indexPath.section][indexPath.row]
         
-        
-   
+        if indexPath == [3,0] {
+            switcher.isHidden = true
+        }
         
         if indexPath == [4,0] {
             switcher.isHidden = false
+            switcher.onTintColor = UIColor().color(hexColor)
         }
         
         
     }
     
     @objc func switcherChange(paramTarget: UISwitch) {
-        
+        switchRepeat?.switchRepeat(value: paramTarget.isOn)
     }
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)

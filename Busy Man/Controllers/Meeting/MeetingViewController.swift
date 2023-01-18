@@ -79,15 +79,15 @@ class MeetingViewController: UIViewController {
     }
     
     let realm = try! Realm()
-    var meetingModel: Results<MeetingData>!
+    var meetingArray: Results<MeetingData>!
     
 //MARK: - ViewDidLoad and constraints
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Meetings"
         
-        meetingModel = realm.objects(MeetingData.self)
-        print(meetingModel)
+        meetingArray = realm.objects(MeetingData.self)
+        
         
         calendar.delegate = self
         calendar.dataSource = self
@@ -97,6 +97,8 @@ class MeetingViewController: UIViewController {
         tableView.register(MeetingCell.self, forCellReuseIdentifier: idMeetingCell)
         navigationController?.tabBarController?.tabBar.scrollEdgeAppearance = navigationController?.tabBarController?.tabBar.standardAppearance
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButton))
+        
+        meetingDate(date: Date())
         
         
         
@@ -130,7 +132,25 @@ class MeetingViewController: UIViewController {
             make.bottom.equalTo(calendarButton).offset(550)
         }
     }
+    private func meetingDate(date: Date) {
+    let calendar = Calendar.current
+    let components = calendar.dateComponents([.weekday], from: date)
+    guard let weekday = components.weekday else {return}
     
+
+    let dateStart = date
+    let dateEnd: Date = {
+        let components = DateComponents(day: 1, second: -1)
+        return Calendar.current.date(byAdding: components, to: dateStart)!
+    }()
+
+    let predicateRepeat = NSPredicate(format: "weekRepeat = \(weekday) AND repeatPeriod = true")
+    let predicateUnrepeat = NSPredicate(format: "repeatPeriod = false AND date BETWEEN %@", [dateStart,dateEnd])
+    let compound = NSCompoundPredicate(type: .or, subpredicates: [predicateRepeat,predicateUnrepeat])
+
+        meetingArray = realm.objects(MeetingData.self).filter(compound)
+        tableView.reloadData()
+    }
 }
 
 // MARK: - FSCalendarDelegate, FSCalendarDataSource
@@ -142,7 +162,7 @@ extension MeetingViewController: FSCalendarDelegate, FSCalendarDataSource {
     }
     
     func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
-        print(calendar)
+        meetingDate(date: date)
     }
 }
 
@@ -150,18 +170,15 @@ extension MeetingViewController: FSCalendarDelegate, FSCalendarDataSource {
 
 extension MeetingViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return meetingArray.count
         
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: idMeetingCell, for: indexPath) as! MeetingCell
+        let data = meetingArray[indexPath.row]
+        cell.configure(data: data)
         
-        switch indexPath.row {
-        case 0: cell.backgroundColor = .red
-        case 1: cell.backgroundColor = .cyan
-        default: cell.backgroundColor = .green
-        }
         return cell
     }
     

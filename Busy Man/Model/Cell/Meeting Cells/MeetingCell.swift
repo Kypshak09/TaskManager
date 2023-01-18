@@ -3,17 +3,37 @@ import SnapKit
 
 class MeetingCell: UITableViewCell {
     
-    let typeOfMeeeting = UILabel(text: "Програмирование", font: UIFont(name: "Avenir Next Demi Bold", size: 20), aligment: .left)
+    let typeOfMeeeting = UILabel(text: "", font: UIFont(name: "Avenir Next Demi Bold", size: 20), aligment: .left)
     
-    let meetingTime = UILabel(text: "09:00", font: UIFont(name: "Avenir Next Demi Bold", size: 13), aligment: .left)
+    let meetingTime = UILabel(text: "", font: UIFont(name: "Avenir Next Demi Bold", size: 13), aligment: .left)
     
-    let namePerson = UILabel(text: "Дядя степа", font: UIFont(name: "Avenir Next Demi", size: 20), aligment: .left)
+    let namePerson = UILabel(text: "", font: UIFont(name: "Avenir Next Demi", size: 20), aligment: .left)
     
-    let date = UILabel(text: "13.02.2023", font: UIFont(name: "Avenir Next Demi", size: 15), aligment: .left)
+    let date = UILabel(text: "", font: UIFont(name: "Avenir Next Demi", size: 15), aligment: .left)
     
-    let city = UILabel(text: "Karaganda", font: UIFont(name: "Times New Roman", size: 20), aligment: .left)
+    let city = UILabel(text: "", font: UIFont(name: "Times New Roman", size: 20), aligment: .left)
     
-    let address = UILabel(text: "Zhanibekova 100/1", font: UIFont(name: "Times New Roman", size: 20), aligment: .left)
+    let address = UILabel(text: "", font: UIFont(name: "Times New Roman", size: 20), aligment: .left)
+    
+    
+    func configure(data: MeetingData) {
+        let timeFormatter = DateFormatter()
+        timeFormatter.dateFormat = "HH:mm"
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd.MM.yyyy"
+        
+        
+        typeOfMeeeting.text = data.typeOfMeeting
+        namePerson.text = data.name
+        city.text = data.city
+        address.text = data.address
+        meetingTime.text = timeFormatter.string(from: data.time!)
+        date.text = dateFormatter.string(from: data.date!)
+        backgroundColor = UIColor().color(data.color)
+        
+        
+    }
 
     override func awakeFromNib() {
         super.awakeFromNib()

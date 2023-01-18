@@ -80,9 +80,9 @@ class ChooseColorMeeting: UITableViewController {
     
     func setColor(color: String) {
         let meeting = self.navigationController?.viewControllers[1] as? AddMeetingController
-        meeting?.hexColorCell = color
-        print(color)
-        meeting?.tableView.reloadRows(at: [[3,0]], with: .none)
+        meeting?.hexColorCell = color 
+//        print(color)
+        meeting?.tableView.reloadRows(at: [[3,0], [4,0]], with: .none)
         self.navigationController?.popViewController(animated: true)
     }
 }
