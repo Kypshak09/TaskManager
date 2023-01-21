@@ -146,6 +146,34 @@
 			<key>uniqueIdentifier</key>
 			<string>714B43A0-7767-46EF-9FA4-08B286811201</string>
 		</dict>
+		<key>B8B77800-8134-4B30-B920-9E9D26C428F3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>B8B77800-8134-4B30-B920-9E9D26C428F3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Busy_Man-caflcxohdbcsqrfifhpdehydvzbt</string>
+			<key>timeStartedRecording</key>
+			<real>695996064.68676496</real>
+			<key>timeStoppedRecording</key>
+			<real>695996073.26531506</real>
+			<key>title</key>
+			<string>Build target Busy Man</string>
+			<key>uniqueIdentifier</key>
+			<string>B8B77800-8134-4B30-B920-9E9D26C428F3</string>
+		</dict>
 		<key>C87CB759-0258-490E-8184-941520656FE7</key>
 		<dict>
 			<key>className</key>
@@ -201,34 +229,6 @@
 			<string>Build target RealmCore</string>
 			<key>uniqueIdentifier</key>
 			<string>D5791D93-25EC-4B70-B152-889ACC519DEE</string>
-		</dict>
-		<key>FD05D193-7035-4635-83B4-1BBFF0388C67</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>FD05D193-7035-4635-83B4-1BBFF0388C67.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Busy_Man-caflcxohdbcsqrfifhpdehydvzbt</string>
-			<key>timeStartedRecording</key>
-			<real>695735288.37408996</real>
-			<key>timeStoppedRecording</key>
-			<real>695735297.49224699</real>
-			<key>title</key>
-			<string>Build target Busy Man</string>
-			<key>uniqueIdentifier</key>
-			<string>FD05D193-7035-4635-83B4-1BBFF0388C67</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

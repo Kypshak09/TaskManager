@@ -24,4 +24,23 @@ class RealmManager {
             localRealm.delete(data)
         }
     }
+    
+    func saveTaskData(data: TaskData) {
+        try! localRealm.write {
+            localRealm.add(data)
+        }
+        print("Realm is located at:", localRealm.configuration.fileURL!)
+    }
+    
+    func detele(data: TaskData) {
+        try! localRealm.write {
+            localRealm.delete(data)
+        }
+    }
+    
+    func update(data: TaskData, bool: Bool) {
+        try! localRealm.write{
+            data.taskDone = bool
+        }
+    }
 }

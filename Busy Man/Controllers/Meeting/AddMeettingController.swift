@@ -9,7 +9,7 @@ class AddMeetingController: UITableViewController {
     
     let headerArray = ["Place and type of meeting","Person", "Date and time", "Color", "Period"]
     
-    var hexColorCell = String()
+    var hexColorCell = "1A4766"
  
     private var meetingData = MeetingData()
     
@@ -23,11 +23,13 @@ class AddMeetingController: UITableViewController {
         self.tableView.register(AddMeetingCell.self, forCellReuseIdentifier: identifier)
         self.tableView.register(HeaderMeeting.self, forHeaderFooterViewReuseIdentifier: header)
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(saveMeetings))
+        navigationItem.rightBarButtonItem?.tintColor = .black
         
     }
     @objc func saveMeetings() {
         
-        if meetingData.date == nil || meetingData.time == nil || meetingData.name == "" {
+        if meetingData.date == nil || meetingData.time == nil || meetingData.name == ""
+        {
             alertSave(title: "Error", message: "Required to fill all cells")
         } else {
             RealmManager.shared.saveMeetingData(data: meetingData)
@@ -38,9 +40,15 @@ class AddMeetingController: UITableViewController {
             print(meetingData.color)
         }
 
+    
         
         
-        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.reloadRows(at: [[3,0]], with: .none)
+        meetingData.color = hexColorCell
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {

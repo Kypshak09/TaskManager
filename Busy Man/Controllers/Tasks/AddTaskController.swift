@@ -6,6 +6,7 @@ class AddTaskController: UITableViewController {
    private let identifier = "identifierAddTaskController"
    private let header = "headerTask"
  
+    private var taskData = TaskData()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +17,20 @@ class AddTaskController: UITableViewController {
         tableView.bounces = false
         self.tableView.register(AddTaskCell.self, forCellReuseIdentifier: identifier)
         self.tableView.register(HeaderTask.self, forHeaderFooterViewReuseIdentifier: header)
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(saveTaskData))
+        navigationItem.rightBarButtonItem?.tintColor = .black
+    }
+    
+    @objc func saveTaskData() {
+        
+        if taskData.dateOfTask == nil || taskData.time  == nil || taskData.titleOfTask == "" {
+            alertSave(title: "Error", message: "All cells need to be filled")
+        } else {
+            RealmManager.shared.saveTaskData(data: taskData)
+            taskData = TaskData()
+            alertSave(title: "Successfully added", message: nil)
+            tableView.reloadData()
+        }
         
         
     }
@@ -58,17 +73,17 @@ class AddTaskController: UITableViewController {
         
         switch indexPath {
         case [1,0]: alertDate(label: cell.label) { numberWeek, date in
-            print(numberWeek, date)
+            self.taskData.dateOfTask = date
         }
         case [1,1]: alertTime(label: cell.label) { time in
-            print(time)
+            self.taskData.time = time
         }
-        case[0,0]: alertLabel(label: cell.label, name: "Title of Task", placeholder: "Type here", completionHandler: {
-            text in
-        })
-        case[0,1]: alertLabel(label: cell.label, name: "Description of Task", placeholder: "Type here", completionHandler: {
-            text in
-        })
+        case[0,0]: alertLabel(label: cell.label, name: "Title of Task", placeholder: "Type here") { text in
+            self.taskData.titleOfTask = text
+        }
+        case[0,1]: alertLabel(label: cell.label, name: "Description of Task", placeholder: "Type here") { text in
+            self.taskData.descriptionOfTask = text
+        }
         default: print("Error")
         }
         

@@ -13,8 +13,7 @@ class MainViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        
-        
+        self.tabBar.tintColor = .black
         setUpTabBar()
         
     }
@@ -22,9 +21,9 @@ class MainViewController: UITabBarController {
         
         let meeting = createTabBar(vc: MeetingViewController(), itemName: "Meetings", itemImage: "person.badge.clock.fill")
         let tasks = createTabBar(vc: TasksViewController(), itemName: "Tasks", itemImage: "table")
-        let calls = createTabBar(vc: CallsViewController(), itemName: "Calls", itemImage: "phone.fill")
+//        let calls = createTabBar(vc: CallsViewController(), itemName: "Calls", itemImage: "phone.fill")
         
-        viewControllers = [meeting, tasks, calls]
+        viewControllers = [meeting, tasks/*, calls*/]
         
     }
 

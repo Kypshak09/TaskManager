@@ -43,6 +43,7 @@
 		257E5371296C3BE6002AC1EA /* MeetingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E5370296C3BE6002AC1EA /* MeetingCell.swift */; };
 		2582A92C296D91760056DE05 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582A92B296D91760056DE05 /* UILabel.swift */; };
 		2582A92E296D93DD0056DE05 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582A92D296D93DD0056DE05 /* UIStackView.swift */; };
+		25936A2F297ABDC200CC759D /* TaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25936A2E297ABDC200CC759D /* TaskData.swift */; };
 		25CB157A29759B7400694CFD /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB157929759B7400694CFD /* UIColor.swift */; };
 		25CB157C2975ACB300694CFD /* AlertSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB157B2975ACB300694CFD /* AlertSave.swift */; };
 /* End PBXBuildFile section */
@@ -82,6 +83,7 @@
 		257E5370296C3BE6002AC1EA /* MeetingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingCell.swift; sourceTree = "<group>"; };
 		2582A92B296D91760056DE05 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		2582A92D296D93DD0056DE05 /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		25936A2E297ABDC200CC759D /* TaskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskData.swift; sourceTree = "<group>"; };
 		25CB157929759B7400694CFD /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		25CB157B2975ACB300694CFD /* AlertSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSave.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				256075CA2970D18A00119808 /* MeetingData.swift */,
+				25936A2E297ABDC200CC759D /* TaskData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				256075C12970BB9700119808 /* AlertTypes.swift in Sources */,
 				2553E181296EF5BD00C570FF /* AddMeettingController.swift in Sources */,
 				2560759F29700F1E00119808 /* AlertDate.swift in Sources */,
+				25936A2F297ABDC200CC759D /* TaskData.swift in Sources */,
 				250D06F12977255C00107F1C /* SwitchProcol.swift in Sources */,
 				252F090E29753982003E8A23 /* RealmManager.swift in Sources */,
 				2553E184296EF5E900C570FF /* AddTaskController.swift in Sources */,

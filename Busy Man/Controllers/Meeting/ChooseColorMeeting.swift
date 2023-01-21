@@ -17,7 +17,6 @@ class ChooseColorMeeting: UITableViewController {
         tableView.bounces = false
         self.tableView.register(ColorCell.self, forCellReuseIdentifier: identifier)
         self.tableView.register(HeaderMeeting.self, forHeaderFooterViewReuseIdentifier: header)
-        
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -25,20 +24,13 @@ class ChooseColorMeeting: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        switch section {
-        case 0: return 1
-        case 1: return 1
-        case 2: return 1
-        case 3: return 1
-        case 4: return 1
-        default: return 1
-        }
+        return 1
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as! ColorCell
         cell.getCellNames(indexPath: indexPath)
-        cell.backgroundColor = .systemGray2
+//        cell.backgroundColor = .systemGray2
         return cell
     }
     
@@ -74,15 +66,14 @@ class ChooseColorMeeting: UITableViewController {
         case 5:
             setColor(color: "1A4766")
         default :
-            print("Error")
+            setColor(color:"FFFFFF")
         }
     }
     
     func setColor(color: String) {
         let meeting = self.navigationController?.viewControllers[1] as? AddMeetingController
-        meeting?.hexColorCell = color 
-//        print(color)
-        meeting?.tableView.reloadRows(at: [[3,0], [4,0]], with: .none)
+        meeting?.hexColorCell = color
+//        meeting?.tableView.reloadRows(at: [[3,0]], with: .none )
         self.navigationController?.popViewController(animated: true)
     }
 }

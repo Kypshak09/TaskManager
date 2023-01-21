@@ -7,11 +7,14 @@
 
 import UIKit
 import FSCalendar
+import RealmSwift
 
 class TasksViewController: UIViewController {
     // Height of Calendar
     var calendarHeight: NSLayoutConstraint!
     
+    let realm = try! Realm()
+    var taskArray: Results<TaskData>!
     
     // MARK: - creating of calendar with FSCalendar
     let calendar: FSCalendar = {
@@ -38,6 +41,11 @@ class TasksViewController: UIViewController {
             calendar.setScope(.week, animated: true)
             calendarButton.setTitle("Open Calendar", for: .normal)
         }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.reloadData()
     }
     
     // MARK: - Swipe method for calendar
@@ -75,10 +83,20 @@ class TasksViewController: UIViewController {
         navigationController?.pushViewController(AddTaskController(), animated: true)
     }
     
+    private func setTask(date: Date) {
+        let dateStart = date
+        let dateEnd: Date = {
+            let components = DateComponents(day: 1, second: -1)
+            return Calendar.current.date(byAdding: components,to: dateStart)!
+        }()
+        taskArray = realm.objects(TaskData.self).filter("dateOfTask BETWEEN %@", [dateStart,dateEnd])
+        tableView.reloadData()
+    }
 //MARK: - ViewDidLoad and constraints
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Tasks"
+        calendar.tintColor = .black
         calendar.delegate = self
         calendar.dataSource = self
         calendar.scope = .week
@@ -86,9 +104,14 @@ class TasksViewController: UIViewController {
         tableView.dataSource = self
         tableView.register(TasksCell.self, forCellReuseIdentifier: idTaskCell)
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(goToAddTaskController))
+        navigationItem.rightBarButtonItem?.tintColor = .black
+        
+        taskArray = realm.objects(TaskData.self)
+        setTask(date: calendar.today!)
         
         calendarButton.addTarget(self, action: #selector(tappedCalendarButton), for: .touchUpInside)
         swipeCalendar()
+        
         
         
         view.addSubview(calendar)
@@ -127,17 +150,23 @@ extension TasksViewController: FSCalendarDelegate, FSCalendarDataSource {
         calendarHeight.constant = bounds.height
         view.layoutIfNeeded()
     }
+    func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
+        setTask(date: date)
+    }
 
 }
 // MARK: - UITableViewDelegate, UITableViewDataSource
 extension TasksViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return taskArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: idTaskCell, for: indexPath) as! TasksCell
-        
+        let data = taskArray[indexPath.row]
+        cell.cellTaskDelegate = self
+        cell.index = indexPath
+        cell.configure(data: data)
         return cell
         
     }
@@ -146,6 +175,24 @@ extension TasksViewController: UITableViewDelegate, UITableViewDataSource {
         80
     }
     
-    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let rowOfTask = taskArray[indexPath.row]
+        
+        let delete = UIContextualAction(style: .destructive, title: "Delete") { _, _, completionHandler in
+            RealmManager.shared.detele(data: rowOfTask)
+            tableView.reloadData()
+        }
+        return UISwipeActionsConfiguration(actions: [delete])
+    }
 }
+
+extension TasksViewController: PressButton {
+    func readyButton(index: IndexPath) {
+        let data = taskArray[index.row]
+        RealmManager.shared.update(data: data, bool: !data.taskDone)
+        tableView.reloadData()
+        print("TAP")
+    }
+}
+
 

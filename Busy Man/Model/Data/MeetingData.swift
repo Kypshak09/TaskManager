@@ -20,7 +20,7 @@ class MeetingData: Object {
     @Persisted var time: Date?
     //    @Persisted var time = NSDate()
     @Persisted var color: String = "1A4766"
-    @Persisted var repeatPeriod: Bool = true
+    @Persisted var repeatPeriod: Bool = false
     @Persisted var weekRepeat: Int = 1
 
 }

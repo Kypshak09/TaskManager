@@ -21,6 +21,7 @@ class MeetingViewController: UIViewController {
         return calendar
     }()
     
+    
     //MARK: - creating button
     
     let calendarButton: UIButton = {
@@ -90,10 +91,8 @@ class MeetingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Meetings"
-        
+        self.calendar.tintColor = .black
         meetingArray = realm.objects(MeetingData.self)
-        
-        
         calendar.delegate = self
         calendar.dataSource = self
         calendar.scope = .week
@@ -102,7 +101,7 @@ class MeetingViewController: UIViewController {
         tableView.register(MeetingCell.self, forCellReuseIdentifier: idMeetingCell)
         navigationController?.tabBarController?.tabBar.scrollEdgeAppearance = navigationController?.tabBarController?.tabBar.standardAppearance
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButton))
-        
+        navigationItem.rightBarButtonItem?.tintColor = .black
         meetingDate(date: Date())
         
         

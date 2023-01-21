@@ -20,24 +20,12 @@ class ColorCell: UITableViewCell {
         case 4: cellView.backgroundColor = UIColor().color("2D7FC1")
         default: cellView.backgroundColor = UIColor().color("1A4766")
         }
-        
-//    case 0:
-//        setColor(color: "BE2813")
-//    case 1:
-//        setColor(color: "F07F5A")
-//    case 2:
-//        setColor(color: "F3AF22")
-//    case 3:
-//        setColor(color: "467C24")
-//    case 4:
-//        setColor(color: "2D7FC1")
-//    case 5:
-//        setColor(color: "1A4766")
     }
  
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        selectionStyle = .none
+        self.selectionStyle = .none
+        self.backgroundColor = .clear
         constraintsCell()
         
     }
